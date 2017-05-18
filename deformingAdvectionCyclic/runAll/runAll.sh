@@ -1,40 +1,51 @@
 #!/bin/bash -e
 
-cs=(05 05 05 05 05
-    1  1  1  1  1
-    2  2  2  2  2
-    5  5  5  5  5
-    10 10 10 10 10)
-nxs=(60 120 240 480 960
-     60 120 240 480 960
-     60 120 240 480 960
-     60 120 240 480 960
-     60 120 240 480 960)
-dts=(0.005 .0025 0.00125 0.000625 0.0003125   # for c05
-     0.01 0.005 .0025 0.00125 0.000625        # for c1
-     0.02 0.01 0.005 .0025 0.00125            # for c2
-     0.05 .025 0.0125 0.00625 0.003125        # for c5
-     0.1 0.05 .025 0.0125 0.00625)            # for c10
-# Generate the mesh and initialise all cases
+nxs=(60 120 240 480 960)
+# Generate the mesh for all cases
 for type in orthogonal nonOrthogW; do
     i=0
     for nx in ${nxs[*]} ; do
-        dt=${dts[$i]}
-		c=${cs[$i]}
-        echo $type $nx $dt $c
-        ./runAll/init.sh $type $nx $dt $c
+        echo $type $nx
+        ./runAll/initMesh.sh $type $nx
         let i=$i+1
     done
 done
-exit
+
+# Initialise all cases
+for case in orthogonal/[1-9]* nonOrthogW/[1-9]* ; do
+    ./runAll/init0.sh $case
+done
+
 # plot of mesh and initial conditions
-gmtFoam -case nonOrthogW/120x60 -time 0 TUmesh
-ev nonOrthogW/120x60/0/TUmesh.pdf
+case=nonOrthogW/120x60
+gmtFoam -case $case -time 0 TUmesh
+ev $case/0/TUmesh.pdf
+
+#rm -r orthogonal/[1-9]*/c*plicit nonOrthogW/[1-9]*/c*plicit
+
+# Set up cases with different time-steps to be run implicitly or explicitly
+cs=(05 1 2 5 10)
+for case in orthogonal/[1-9]* nonOrthogW/[1-9]* ; do
+	for c in ${cs[*]}; do
+        echo $case $c
+        ./runAll/initDT.sh $case $c explicit
+        ./runAll/initDT.sh $case $c implicit
+	done
+done
 
 # run all test cases
-for case in orthogonal/[1-9]* nonOrthogW/[1-9]* ; do
-    nohup scalarDeformationWithGhosts -case $case >& $case/log &
+for c in ${cs[*]}; do
+    #for rootCase in orthogonal/[1-9]* nonOrthogW/[1-9]* ; do
+    for rootCase in orthogonal/240x120 nonOrthogW/240x120 ; do
+        case=$rootCase/c${c}_implicit
+        nohup scalarDeformationWithGhosts implicit -case $case >& $case/log &
+        sleep 1
+        case=$rootCase/c${c}_explicit
+        nohup scalarDeformationWithGhosts explicit -case $case >& $case/log &
+    done
 done
+
+exit
 
 # plots for all test cases
 for case in orthogonal/[1-9]* nonOrthogW/[1-9]* ; do

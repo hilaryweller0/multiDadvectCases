@@ -1,17 +1,18 @@
 #!/bin/bash -e
+# Set up a test case either orthogonal or non-orthogonal with a given resolution
+# without a specific time-step
 
-if [ "$#" -ne 4 ]
+if [ "$#" -ne 2 ]
 then
-   echo usage: init.sh orthogonal'|'nonOrthog'|'nonOrthogW nx deltaT c
+   echo usage: initMesh.sh orthogonal'|'nonOrthog'|'nonOrthogW nx
    exit
 fi
 
 type=$1
 let nx=$2*2
 nz=$2
-dt=$3
-c=$4
-case=${type}_c$c/${nx}x${nz}
+case=${type}/${nx}x${nz}
+dt=1
 
 rm -rf $case
 mkdir -p $case
@@ -40,7 +41,7 @@ elif [ "$type" == "nonOrthogW" ]; then
     AP=0.144337567
     let NX=$NX/2
 else
-    echo in init.sh 'type<orthogonal|nonOrthog|nonOrthogW>' nx deltaT
+    echo in init.sh 'type<orthogonal|nonOrthog|nonOrthogW>' nx
     echo type must be one of orthogonal or nonOrthog, not $type
     exit
 fi
@@ -61,14 +62,10 @@ sed -e 's/DELTAT/'$dt'/g' dummy/system/controlDict > $case/system/controlDict
 # Generate the mesh on a plane
 blockMesh -case $case
 
-# Create the initial conditions
-cp -r dummy/0 $case
-setGaussians -case $case setGaussiansDict
-#gmtFoam -case $case UT
-#gv $case/0/UT.pdf &
-
 # create the ghost mesh
 createGhostMesh 3 -case $case
 stitchMesh -case $case -perfect -overwrite -region ghostMesh inlet outlet2
 stitchMesh -case $case -perfect -overwrite -region ghostMesh outlet inlet1
 
+# link to the gmtDicts directory
+ln -s ../../../gmtDicts $case/constant/gmtDicts
