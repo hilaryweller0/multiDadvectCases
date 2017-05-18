@@ -1,0 +1,52 @@
+// The FOAM Project // File: fvSchemes
+/*
+-------------------------------------------------------------------------------
+ =========         | dictionary
+ \\      /         |
+  \\    /          | Name:   fvSchemes
+   \\  /           | Family: FoamX configuration file
+    \\/            |
+    F ield         | FOAM version: 2.3
+    O peration     | Product of Nabla Ltd.
+    A and          |
+    M anipulation  | Email: Enquiries@Nabla.co.uk
+-------------------------------------------------------------------------------
+*/
+// FoamX Case Dictionary.
+
+FoamFile
+{
+    version         2.0;
+    format          ascii;
+
+    root            "";
+    case            "";
+    instance        "constant";
+    local           "";
+
+    class           dictionary;
+    object          deformationalAdvectionDict;
+}
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+// Tracer specification
+backgroundValue T [0 0 0 0 0] 0;
+gaussians 2
+(
+    centre [0 1 0 0 0] (-30 0 0)
+    radius [0 1 0 0 0] 18.118516358
+    max    [0 0 0 0 0] 0.95
+    (0 0 0)
+    (0 0 0)
+
+    centre [0 1 0 0 0] (30 0 0)
+    radius [0 1 0 0 0] 18.118516358
+    max    [0 0 0 0 0] 0.95
+    (0 0 0)
+    (0 0 0)
+);
+
+// ************************************************************************* //
+
+
