@@ -1,0 +1,42 @@
+For the solid body rotation in a plane test case I am using the setup:
+
+Domain size 100mx100m with 100x100 cells
+End time pi/8
+Time step pi/8000 (to give a maximum Courant number of 0.609469)
+I guess that you used a time-step of pi/800
+
+Centre of rotation at x_c = (50,50)
+A = 8 /s
+for defining the streamfunction using 
+psi = A |x - x_c|^2
+(where x is the position vector)
+This gives very large winds, of the order 800m/s
+
+Initial tracer concentration:
+
+phi = exp(-0.5 |x-x'|^2/9)
+where x' is the vector location of the initial centre of the tracer given by
+x' = x_c + r' (cos(theta0), sin(theta0))
+where r' = 30*sqrt(2) = 42.426406871
+and theta0 = pi/4
+
+This differs from what is in your MSc thesis because you don't have a minus in the exponential and you defined r'=2*sqrt(30)
+
+Where did you get this setup from? Did you define the numbers to make it look similar to Leonard et al 1996? Or are these numbers defined somewhere.
+
+Alternative, equivalent setup:
+    Multiply times by 8000/pi
+    Multiply length by 100
+    Multiply speeds by 100*pi/8000
+    Multiply A by pi/8000
+End time 1000
+Time step 1
+write every 10
+Domain size 1e4 x 1e4
+Centre of rotaion (5e3, 5e3)
+A = 0.00314159265 = pi/1000
+r' = 30*sqrt(2)*100 = 4,242.640687119
+# try instead:
+r' = 25*sqrt(2)*100 = 3,535.533905933
+# to avoid interactions with boundaries
+tracer radius = 300
