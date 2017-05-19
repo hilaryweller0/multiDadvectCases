@@ -24,7 +24,7 @@ ev $case/0/TUmesh.pdf
 #rm -r orthogonal/[1-9]*/c*plicit nonOrthogW/[1-9]*/c*plicit
 
 # Set up cases with different time-steps to be run implicitly or explicitly
-cs=(05 1 2 5 10)
+cs=(0.5 1 2 5 10)
 for case in orthogonal/[1-9]* nonOrthogW/[1-9]* ; do
 	for c in ${cs[*]}; do
         echo $case $c
@@ -34,6 +34,7 @@ for case in orthogonal/[1-9]* nonOrthogW/[1-9]* ; do
 done
 
 # run all test cases
+cs=(05 1 2 5 10)
 for c in ${cs[*]}; do
     #for rootCase in orthogonal/[1-9]* nonOrthogW/[1-9]* ; do
     for rootCase in orthogonal/240x120 nonOrthogW/240x120 ; do

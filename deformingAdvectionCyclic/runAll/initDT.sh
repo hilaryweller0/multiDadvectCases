@@ -12,13 +12,14 @@ fi
 case=$1
 c=$2
 newName=$3
+cName=`echo $c | sed 's/\.//g'`
 
 # derived from arguments (nx and time-step)
 nx=`echo $case | awk -F'/' '{print $2}' | awk -Fx '{print $1}'`
 dt=`echo $c $nx | awk '{print $1/$2*60/100.}'`
 
 # Create sub-case
-newCase=$case/c${c}_${newName}
+newCase=$case/c${cName}_${newName}
 mkdir $newCase
 ln -s ../constant $newCase/constant
 ln -s ../0 $newCase/0
