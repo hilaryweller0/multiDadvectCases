@@ -57,7 +57,7 @@ for case in orthogonal/[1-9]* nonOrthogW/[1-9]* ; do
 done
 
 # Cacluate error measures for all cases (as necessary)
-for case in */[1-9]*; do
+for case in */[1-9]*/c*plicit; do
     if [ -e $case/5/T ] && [ ! -e $case/errorNorms.dat ]; then
         ./runAll/calcErrors.sh $case
     fi
@@ -67,8 +67,10 @@ done
 # plot errors
 # assemble errors for convergence with resolution
 for dir in orthog* nonOrthog*; do
-    cat $dir/*/errorNorms.dat | head -1 > $dir/errorNorms.dat
-    grep -h -v '^#' $dir/*/errorNorms.dat | sort -n >> $dir/errorNorms.dat
+    for dt in c1_implicit c10_implicit c1_explicit; do
+        cat $dir/*/$dt/errorNorms.dat | head -1 > $dir/${dt}_errorNorms.dat
+        grep -h -v '^#' $dir/*/$dt/errorNorms.dat | sort -n >> $dir/${dt}_errorNorms.dat
+    done
 done
 
 # assemble errors for convergence with time-step

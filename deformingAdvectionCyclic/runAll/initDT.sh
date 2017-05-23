@@ -15,7 +15,7 @@ newName=$3
 cName=`echo $c | sed 's/\.//g'`
 
 # derived from arguments (nx and time-step)
-nx=`echo $case | awk -F'/' '{print $2}' | awk -Fx '{print $1}'`
+nx=`echo $case | awk -F'/' '{print $2}' | awk -Fx '{print $2}'`
 dt=`echo $c $nx | awk '{print $1/$2*60/100.}'`
 
 # Create sub-case

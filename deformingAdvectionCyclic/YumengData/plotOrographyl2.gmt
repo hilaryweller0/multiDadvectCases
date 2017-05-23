@@ -1,0 +1,36 @@
+inputFiles=(
+    data/vSlice_horizontalAdvection_orography_cubicUpwindCPCFit_errorMetricsEnd.dat
+#    data/vSlice_horizontalAdvection_highOrography_cubicUpwindCPCFit_errorMetricsEnd.dat
+    data/orography_c1_errorMetrics.dat
+#    data/highOrography_c1_errorMetrics.dat
+    data/1stOrder.dat data/2ndOrder.dat)
+outFile=HilarysGraphics/orography_l2errors.eps
+col=(4 4 2 2)
+colx=1
+legends=("multi d" #" h@-0@- = 3km" "multi d h@-0@- = 6km"
+         "split" #" h@-0@- = 3km" "split h@-0@- = 6km"
+         "1st/2nd order")
+pens=("1p,blue" #"1p,cyan"
+      "1p,red" #"1p,magenta"
+      "black,2_2:0" "black,2_2:0")
+symbols=("c8p" #"x10p" 
+         "c8p" #"x10p"
+         "x1p" "x1p")
+xlabel='@~D@~x (m)'
+#ylabel='l@-2@- errors'
+xmin=100
+xmax=2200
+dx=10
+ddx=3
+dxg=10
+ymin=1e-3
+ymax=1
+dy=110
+ddy=3
+dyg=10
+xscale=*1
+yscale=*1
+legPos=x0.1/10
+nSkip=1
+projection=X10cl/10cl
+gv=1

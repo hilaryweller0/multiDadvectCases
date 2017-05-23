@@ -1,6 +1,8 @@
-YDIR=/home/hilary/latex/myPapers/YumengHilaryAdvectionPaper/data
-inputFiles=(orthogonal_c1/errorNorms.dat
-            nonOrthogW_c1/errorNorms.dat
+YDIR=YumengData
+inputFiles=(orthogonal/c1_implicit_errorNorms.dat,
+            nonOrthogW/c1_implicit_errorNorms.dat
+            orthogonal/c1_explicit_errorNorms.dat
+            nonOrthogW/c1_explicit_errorNorms.dat
             $YDIR/Deformational_PPM_smallc_orthogonal_erroMetrics.dat
             $YDIR/Deformational_PPM_smallc_nonOrthogW_erroMetrics.dat
             runAll/data/1stOrder.dat
@@ -8,22 +10,27 @@ inputFiles=(orthogonal_c1/errorNorms.dat
             runAll/data/3rdOrder.dat)
 
 outFile=plots/linferrors_c1.eps
-col=(5 5 5 5 2 2 2)
+col=(5 5 5 5 5 5 2 2 2)
 colx=1
-legends=("multi d orthogonal"
-         "multi d non-orthogonal"
+legends=("multi d orthogonal implicit"
+         "multi d non-orthogonal implicit"
+         "multi d orthogonal explicit"
+         "multi d non-orthogonal explicit"
          "split orthogonal"
          "split non-orthogonal"
          "1st/2nd/3rd order")
 
 pens=("1p,blue" "1p,blue,6_6:0"
+      "1p,black" "1p,black,6_6:6"
       "1p,red"  "1p,red,6_6:0"
       "1p,black,1_3:0" "1p,black,1_3:0" "1p,black,1_3:0")
-symbols=('c8p' 'x10p' 
-         'c8p' 'x10p' 
+symbols=('c10p' 'x12p'
+         'c8p' 'x10p'
+         'c8p' 'x10p'
          'x0.1p' 'x0.1p' 'x0.1p')
 spens=("1p,blue" "1p,blue"
-      "1p,red"  "1p,red"  
+       "1p,black" "1p,black"
+       "1p,red"  "1p,red"
        "0p,black" "0p,black" "0p,black")
 
 xlabel='@~D@~x (degrees)'
