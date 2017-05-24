@@ -37,12 +37,13 @@ done
 cs=(05 1 2 5 10)
 for c in ${cs[*]}; do
     #for rootCase in orthogonal/[1-9]* nonOrthogW/[1-9]* ; do
-    for rootCase in orthogonal/240x120 nonOrthogW/240x120 ; do
+    for rootCase in */240x120 */120x60 ; do
         case=$rootCase/c${c}_implicit
         nohup scalarDeformationWithGhosts implicit -case $case >& $case/log &
         sleep 1
         case=$rootCase/c${c}_explicit
         nohup scalarDeformationWithGhosts explicit -case $case >& $case/log &
+        sleep 1
     done
 done
 
