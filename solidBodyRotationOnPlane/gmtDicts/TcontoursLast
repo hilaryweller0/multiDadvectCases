@@ -25,9 +25,9 @@ FieldsToPlot
 lastPlot true;
 overlay true;
 // options
-//region "0/100/0/100";
+region "0/10e3/0/9.99e3";
 boundaryMarks "a2e3/a2e3";
 //separateLegend true;
 //overlay true;
-boundaryDots false;
+plotBoundaryDots false;
 

@@ -25,9 +25,10 @@ FieldsToPlot
 // options
 overlay false;
 lastPlot false;
-//region "0/100/0/100";
+//region "0/1e4/0/1e4";
+region "0/10e3/0/9.99e3";
 annotate "minMax 2000 500";
 boundaryMarks "a2e3/a2e3";
 separateLegend true;
-boundaryDots false;
+plotBoundaryDots false;
 

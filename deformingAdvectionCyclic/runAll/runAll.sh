@@ -1,5 +1,6 @@
 #!/bin/bash -e
 
+mkdir -p dummy/constant
 nxs=(60 120 240 480 960)
 # Generate the mesh for all cases
 for type in orthogonal nonOrthogW; do
@@ -24,7 +25,15 @@ ev $case/0/TUmesh.pdf
 #rm -r orthogonal/[1-9]*/c*plicit nonOrthogW/[1-9]*/c*plicit
 
 # Set up cases with different time-steps to be run implicitly or explicitly
-cs=(0.5 1 2 5 10)
+#cs=(0.5 1 2 5 10)
+#for case in orthogonal/120x60 nonOrthogW/120x60 ; do
+#	for c in ${cs[*]}; do
+#        echo $case $c
+#        ./runAll/initDT.sh $case $c explicit
+#        ./runAll/initDT.sh $case $c implicit
+#	done
+#done
+cs=(1 10)
 for case in orthogonal/[1-9]* nonOrthogW/[1-9]* ; do
 	for c in ${cs[*]}; do
         echo $case $c
@@ -33,17 +42,20 @@ for case in orthogonal/[1-9]* nonOrthogW/[1-9]* ; do
 	done
 done
 
+
 # run all test cases
-cs=(05 1 2 5 10)
-for c in ${cs[*]}; do
-    #for rootCase in orthogonal/[1-9]* nonOrthogW/[1-9]* ; do
-    for rootCase in orthogonal/240x120 nonOrthogW/240x120 ; do
+#for rootCase in orthogonal/[1-9]* nonOrthogW/[1-9]* ; do
+for rootCase in */480x240 */960x480 */1920x960 ; do
+    #cs=(05 1 2 5 10)
+    cs=(1 10)
+    for c in ${cs[*]}; do
         case=$rootCase/c${c}_implicit
         nohup scalarDeformationWithGhosts implicit -case $case >& $case/log &
         sleep 1
-        case=$rootCase/c${c}_explicit
-        nohup scalarDeformationWithGhosts explicit -case $case >& $case/log &
     done
+    c=1
+    case=$rootCase/c${c}_explicit
+    nohup scalarDeformationWithGhosts explicit -case $case >& $case/log &
 done
 
 exit

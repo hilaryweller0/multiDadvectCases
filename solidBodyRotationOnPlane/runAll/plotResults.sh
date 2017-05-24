@@ -34,6 +34,7 @@ cat $case/0/Tdiff.ps $case/0/TcontoursFirst.ps $case/100/TcontoursMid.ps \
     $case/400/TcontoursMid.ps $case/500/TcontoursMid.ps \
     $case/600/TcontoursLast.ps  > $case/Tcontours.ps
 ps2eps -f $case/Tcontours.ps
+pstitle $case/Tcontours.ps
 epstopdf $case/Tcontours.eps
 gv $case/Tcontours.pdf &
 
@@ -43,6 +44,7 @@ cat $case/0/TdiffBig.ps $case/0/TcontoursFirst.ps $case/100/TcontoursMid.ps \
     $case/400/TcontoursMid.ps $case/500/TcontoursMid.ps \
     $case/600/TcontoursLast.ps  > $case/TcontoursBig.ps
 ps2eps -f $case/TcontoursBig.ps
+pstitle $case/TcontoursBig.ps
 epstopdf $case/TcontoursBig.eps
 gv $case/TcontoursBig.pdf &
 
