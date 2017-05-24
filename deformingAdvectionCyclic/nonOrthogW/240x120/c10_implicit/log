@@ -1,0 +1,1236 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  dev                                   |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : dev-90f39e0d894d
+Exec   : scalarDeformationWithGhosts implicit -case nonOrthogW/240x120/c10_implicit
+Date   : May 23 2017
+Time   : 20:31:36
+Host   : "sws02hw.private.rdg.ac.uk"
+PID    : 22949
+Case   : nonOrthogW/240x120/c10_implicit
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Reading field T
+
+Reading fields phi (compulsory), U and Uf (optional)
+
+Calculating owner stencils
+Calculating neighbour stencils
+
+Calculating scalar transport
+
+Courant Number mean: 4.65598 max: 9.65081
+Time = 0.05
+Courant Number mean: 4.64918 max: 9.7762
+DILUPBiCG:  Solving for T, Initial residual = 0.0669211, Final residual = 5.39814e-09, No Iterations 13
+DILUPBiCG:  Solving for T, Initial residual = 0.00254843, Final residual = 7.59575e-09, No Iterations 10
+DILUPBiCG:  Solving for T, Initial residual = 7.2524e-05, Final residual = 2.90532e-09, No Iterations 9
+DILUPBiCG:  Solving for T, Initial residual = 8.51068e-06, Final residual = 6.87997e-09, No Iterations 5
+ T goes from min(T) [0 0 0 0 0 0 0] -2.04661e-10 to max(T) [0 0 0 0 0 0 0] 0.956377
+
+ExecutionTime = 8.37 s  ClockTime = 166 s
+
+Time = 0.1
+Courant Number mean: 4.62875 max: 9.89131
+DILUPBiCG:  Solving for T, Initial residual = 0.0671092, Final residual = 9.659e-09, No Iterations 13
+DILUPBiCG:  Solving for T, Initial residual = 0.00263381, Final residual = 7.80043e-09, No Iterations 10
+DILUPBiCG:  Solving for T, Initial residual = 8.41329e-05, Final residual = 7.74411e-09, No Iterations 7
+DILUPBiCG:  Solving for T, Initial residual = 1.19605e-05, Final residual = 3.80728e-09, No Iterations 6
+ T goes from min(T) [0 0 0 0 0 0 0] -1.771e-06 to max(T) [0 0 0 0 0 0 0] 0.959228
+
+ExecutionTime = 8.94 s  ClockTime = 177 s
+
+Time = 0.15
+Courant Number mean: 4.59486 max: 9.99258
+DILUPBiCG:  Solving for T, Initial residual = 0.0674902, Final residual = 4.36103e-09, No Iterations 14
+DILUPBiCG:  Solving for T, Initial residual = 0.00276491, Final residual = 5.03633e-09, No Iterations 11
+DILUPBiCG:  Solving for T, Initial residual = 0.000106016, Final residual = 6.71857e-09, No Iterations 8
+DILUPBiCG:  Solving for T, Initial residual = 1.87173e-05, Final residual = 4.33367e-09, No Iterations 6
+ T goes from min(T) [0 0 0 0 0 0 0] -3.78417e-05 to max(T) [0 0 0 0 0 0 0] 0.962506
+
+ExecutionTime = 9.54 s  ClockTime = 188 s
+
+Time = 0.2
+Courant Number mean: 4.54968 max: 10.085
+DILUPBiCG:  Solving for T, Initial residual = 0.0679041, Final residual = 3.03371e-09, No Iterations 14
+DILUPBiCG:  Solving for T, Initial residual = 0.00292589, Final residual = 2.85217e-09, No Iterations 11
+DILUPBiCG:  Solving for T, Initial residual = 0.000136074, Final residual = 9.67752e-09, No Iterations 7
+DILUPBiCG:  Solving for T, Initial residual = 2.82191e-05, Final residual = 4.90794e-09, No Iterations 6
+ T goes from min(T) [0 0 0 0 0 0 0] -0.000199528 to max(T) [0 0 0 0 0 0 0] 0.965157
+
+ExecutionTime = 10.1 s  ClockTime = 199 s
+
+Time = 0.25
+Courant Number mean: 4.49651 max: 10.1624
+DILUPBiCG:  Solving for T, Initial residual = 0.0683286, Final residual = 8.7086e-09, No Iterations 13
+DILUPBiCG:  Solving for T, Initial residual = 0.00311027, Final residual = 5.2372e-09, No Iterations 10
+DILUPBiCG:  Solving for T, Initial residual = 0.000170631, Final residual = 1.79787e-09, No Iterations 9
+DILUPBiCG:  Solving for T, Initial residual = 3.90351e-05, Final residual = 4.85729e-09, No Iterations 6
+ T goes from min(T) [0 0 0 0 0 0 0] -0.000588692 to max(T) [0 0 0 0 0 0 0] 0.967327
+
+ExecutionTime = 10.64 s  ClockTime = 209 s
+
+Time = 0.3
+Courant Number mean: 4.43691 max: 10.2268
+DILUPBiCG:  Solving for T, Initial residual = 0.0687428, Final residual = 9.91448e-09, No Iterations 13
+DILUPBiCG:  Solving for T, Initial residual = 0.00331284, Final residual = 4.75933e-09, No Iterations 10
+DILUPBiCG:  Solving for T, Initial residual = 0.000206461, Final residual = 2.62016e-09, No Iterations 9
+DILUPBiCG:  Solving for T, Initial residual = 4.91064e-05, Final residual = 8.53716e-09, No Iterations 6
+ T goes from min(T) [0 0 0 0 0 0 0] -0.00125814 to max(T) [0 0 0 0 0 0 0] 0.970165
+
+ExecutionTime = 11.2 s  ClockTime = 219 s
+
+Time = 0.35
+Courant Number mean: 4.37198 max: 10.2781
+DILUPBiCG:  Solving for T, Initial residual = 0.0691657, Final residual = 5.66012e-09, No Iterations 15
+DILUPBiCG:  Solving for T, Initial residual = 0.00352653, Final residual = 6.79645e-09, No Iterations 10
+DILUPBiCG:  Solving for T, Initial residual = 0.000239989, Final residual = 6.70413e-09, No Iterations 8
+DILUPBiCG:  Solving for T, Initial residual = 5.66336e-05, Final residual = 8.14594e-09, No Iterations 6
+ T goes from min(T) [0 0 0 0 0 0 0] -0.0022366 to max(T) [0 0 0 0 0 0 0] 0.971441
+
+ExecutionTime = 11.81 s  ClockTime = 229 s
+
+Time = 0.4
+Courant Number mean: 4.30263 max: 10.3151
+DILUPBiCG:  Solving for T, Initial residual = 0.0696457, Final residual = 8.28053e-09, No Iterations 15
+DILUPBiCG:  Solving for T, Initial residual = 0.00375269, Final residual = 7.56448e-09, No Iterations 10
+DILUPBiCG:  Solving for T, Initial residual = 0.000269783, Final residual = 8.84884e-09, No Iterations 8
+DILUPBiCG:  Solving for T, Initial residual = 6.16159e-05, Final residual = 6.02286e-09, No Iterations 7
+ T goes from min(T) [0 0 0 0 0 0 0] -0.0035084 to max(T) [0 0 0 0 0 0 0] 0.975162
+
+ExecutionTime = 12.34 s  ClockTime = 238 s
+
+Time = 0.45
+Courant Number mean: 4.22951 max: 10.3369
+DILUPBiCG:  Solving for T, Initial residual = 0.0702501, Final residual = 3.60699e-09, No Iterations 15
+DILUPBiCG:  Solving for T, Initial residual = 0.0039873, Final residual = 8.60304e-09, No Iterations 11
+DILUPBiCG:  Solving for T, Initial residual = 0.000296587, Final residual = 3.48655e-09, No Iterations 9
+DILUPBiCG:  Solving for T, Initial residual = 6.47108e-05, Final residual = 1.90543e-09, No Iterations 8
+ T goes from min(T) [0 0 0 0 0 0 0] -0.00502358 to max(T) [0 0 0 0 0 0 0] 0.976464
+
+ExecutionTime = 12.87 s  ClockTime = 247 s
+
+Time = 0.5
+Courant Number mean: 4.15318 max: 10.347
+DILUPBiCG:  Solving for T, Initial residual = 0.0711008, Final residual = 4.76594e-09, No Iterations 15
+DILUPBiCG:  Solving for T, Initial residual = 0.0042285, Final residual = 2.52297e-09, No Iterations 12
+DILUPBiCG:  Solving for T, Initial residual = 0.000322068, Final residual = 5.14483e-09, No Iterations 9
+DILUPBiCG:  Solving for T, Initial residual = 6.6389e-05, Final residual = 6.33625e-09, No Iterations 7
+ T goes from min(T) [0 0 0 0 0 0 0] -0.00673032 to max(T) [0 0 0 0 0 0 0] 0.978246
+
+ExecutionTime = 13.42 s  ClockTime = 257 s
+
+Time = 0.55
+Courant Number mean: 4.0742 max: 10.34
+DILUPBiCG:  Solving for T, Initial residual = 0.0721581, Final residual = 8.39033e-09, No Iterations 15
+DILUPBiCG:  Solving for T, Initial residual = 0.00446493, Final residual = 4.97812e-09, No Iterations 12
+DILUPBiCG:  Solving for T, Initial residual = 0.000350273, Final residual = 2.23712e-09, No Iterations 10
+DILUPBiCG:  Solving for T, Initial residual = 6.77506e-05, Final residual = 9.26946e-09, No Iterations 7
+ T goes from min(T) [0 0 0 0 0 0 0] -0.00850974 to max(T) [0 0 0 0 0 0 0] 0.97944
+
+ExecutionTime = 14.01 s  ClockTime = 267 s
+
+Time = 0.6
+Courant Number mean: 3.99305 max: 10.3185
+DILUPBiCG:  Solving for T, Initial residual = 0.0733214, Final residual = 1.71103e-09, No Iterations 15
+DILUPBiCG:  Solving for T, Initial residual = 0.00471438, Final residual = 5.25454e-09, No Iterations 12
+DILUPBiCG:  Solving for T, Initial residual = 0.000386129, Final residual = 3.5352e-09, No Iterations 10
+DILUPBiCG:  Solving for T, Initial residual = 7.13826e-05, Final residual = 9.4028e-09, No Iterations 7
+ T goes from min(T) [0 0 0 0 0 0 0] -0.0104323 to max(T) [0 0 0 0 0 0 0] 0.979452
+
+ExecutionTime = 14.63 s  ClockTime = 277 s
+
+Time = 0.65
+Courant Number mean: 3.91015 max: 10.2828
+DILUPBiCG:  Solving for T, Initial residual = 0.0745571, Final residual = 1.6967e-09, No Iterations 15
+DILUPBiCG:  Solving for T, Initial residual = 0.00500297, Final residual = 4.39463e-09, No Iterations 12
+DILUPBiCG:  Solving for T, Initial residual = 0.0004341, Final residual = 4.99106e-09, No Iterations 10
+DILUPBiCG:  Solving for T, Initial residual = 7.93731e-05, Final residual = 3.60172e-09, No Iterations 9
+ T goes from min(T) [0 0 0 0 0 0 0] -0.0123535 to max(T) [0 0 0 0 0 0 0] 0.981964
+
+ExecutionTime = 15.19 s  ClockTime = 287 s
+
+Time = 0.7
+Courant Number mean: 3.826 max: 10.2305
+DILUPBiCG:  Solving for T, Initial residual = 0.0758432, Final residual = 8.47481e-09, No Iterations 14
+DILUPBiCG:  Solving for T, Initial residual = 0.00535809, Final residual = 4.65264e-09, No Iterations 12
+DILUPBiCG:  Solving for T, Initial residual = 0.000498991, Final residual = 3.93674e-09, No Iterations 11
+DILUPBiCG:  Solving for T, Initial residual = 9.29252e-05, Final residual = 8.28254e-09, No Iterations 8
+ T goes from min(T) [0 0 0 0 0 0 0] -0.0141321 to max(T) [0 0 0 0 0 0 0] 0.983419
+
+ExecutionTime = 15.73 s  ClockTime = 296 s
+
+Time = 0.75
+Courant Number mean: 3.74118 max: 10.1655
+DILUPBiCG:  Solving for T, Initial residual = 0.0772864, Final residual = 7.01196e-09, No Iterations 14
+DILUPBiCG:  Solving for T, Initial residual = 0.00578465, Final residual = 5.98645e-09, No Iterations 12
+DILUPBiCG:  Solving for T, Initial residual = 0.000581408, Final residual = 9.23574e-09, No Iterations 10
+DILUPBiCG:  Solving for T, Initial residual = 0.000112827, Final residual = 4.88666e-09, No Iterations 9
+ T goes from min(T) [0 0 0 0 0 0 0] -0.0161009 to max(T) [0 0 0 0 0 0 0] 0.983824
+
+ExecutionTime = 16.29 s  ClockTime = 306 s
+
+Time = 0.8
+Courant Number mean: 3.65622 max: 10.0872
+DILUPBiCG:  Solving for T, Initial residual = 0.0788589, Final residual = 2.58176e-09, No Iterations 15
+DILUPBiCG:  Solving for T, Initial residual = 0.0062364, Final residual = 9.11451e-09, No Iterations 11
+DILUPBiCG:  Solving for T, Initial residual = 0.000683053, Final residual = 8.70087e-09, No Iterations 9
+DILUPBiCG:  Solving for T, Initial residual = 0.000140071, Final residual = 8.34121e-09, No Iterations 9
+ T goes from min(T) [0 0 0 0 0 0 0] -0.0178956 to max(T) [0 0 0 0 0 0 0] 0.987256
+
+ExecutionTime = 16.84 s  ClockTime = 315 s
+
+Time = 0.85
+Courant Number mean: 3.57178 max: 9.99527
+DILUPBiCG:  Solving for T, Initial residual = 0.0806027, Final residual = 5.65436e-09, No Iterations 14
+DILUPBiCG:  Solving for T, Initial residual = 0.00667016, Final residual = 6.43587e-09, No Iterations 11
+DILUPBiCG:  Solving for T, Initial residual = 0.000788871, Final residual = 6.35744e-09, No Iterations 9
+DILUPBiCG:  Solving for T, Initial residual = 0.000171768, Final residual = 7.72897e-09, No Iterations 8
+ T goes from min(T) [0 0 0 0 0 0 0] -0.0195047 to max(T) [0 0 0 0 0 0 0] 0.989142
+
+ExecutionTime = 17.41 s  ClockTime = 325 s
+
+Time = 0.9
+Courant Number mean: 3.48872 max: 9.88851
+DILUPBiCG:  Solving for T, Initial residual = 0.0825496, Final residual = 1.92359e-09, No Iterations 14
+DILUPBiCG:  Solving for T, Initial residual = 0.00705522, Final residual = 6.50323e-09, No Iterations 11
+DILUPBiCG:  Solving for T, Initial residual = 0.000888347, Final residual = 6.66082e-10, No Iterations 10
+DILUPBiCG:  Solving for T, Initial residual = 0.000204598, Final residual = 4.5122e-09, No Iterations 8
+ T goes from min(T) [0 0 0 0 0 0 0] -0.0215746 to max(T) [0 0 0 0 0 0 0] 0.99074
+
+ExecutionTime = 17.98 s  ClockTime = 334 s
+
+Time = 0.95
+Courant Number mean: 3.40796 max: 9.7702
+DILUPBiCG:  Solving for T, Initial residual = 0.0846772, Final residual = 1.49903e-09, No Iterations 14
+DILUPBiCG:  Solving for T, Initial residual = 0.00737422, Final residual = 3.63894e-09, No Iterations 11
+DILUPBiCG:  Solving for T, Initial residual = 0.000981647, Final residual = 7.50646e-10, No Iterations 10
+DILUPBiCG:  Solving for T, Initial residual = 0.00023981, Final residual = 3.14661e-09, No Iterations 8
+ T goes from min(T) [0 0 0 0 0 0 0] -0.0232383 to max(T) [0 0 0 0 0 0 0] 0.992425
+
+ExecutionTime = 18.52 s  ClockTime = 343 s
+
+Time = 1
+Courant Number mean: 3.33063 max: 9.63564
+DILUPBiCG:  Solving for T, Initial residual = 0.0870012, Final residual = 1.8421e-09, No Iterations 13
+DILUPBiCG:  Solving for T, Initial residual = 0.00762875, Final residual = 8.51871e-09, No Iterations 10
+DILUPBiCG:  Solving for T, Initial residual = 0.00105684, Final residual = 1.89199e-09, No Iterations 9
+DILUPBiCG:  Solving for T, Initial residual = 0.000271448, Final residual = 3.22564e-09, No Iterations 7
+ T goes from min(T) [0 0 0 0 0 0 0] -0.0249049 to max(T) [0 0 0 0 0 0 0] 0.994369
+
+ExecutionTime = 19.08 s  ClockTime = 352 s
+
+Time = 1.05
+Courant Number mean: 3.25839 max: 9.45799
+DILUPBiCG:  Solving for T, Initial residual = 0.0895903, Final residual = 7.65099e-10, No Iterations 13
+DILUPBiCG:  Solving for T, Initial residual = 0.00782869, Final residual = 3.6226e-09, No Iterations 10
+DILUPBiCG:  Solving for T, Initial residual = 0.00110111, Final residual = 3.80077e-09, No Iterations 8
+DILUPBiCG:  Solving for T, Initial residual = 0.000292992, Final residual = 5.51498e-09, No Iterations 7
+ T goes from min(T) [0 0 0 0 0 0 0] -0.030344 to max(T) [0 0 0 0 0 0 0] 0.995845
+
+ExecutionTime = 19.62 s  ClockTime = 361 s
+
+Time = 1.1
+Courant Number mean: 3.1949 max: 9.23424
+DILUPBiCG:  Solving for T, Initial residual = 0.0924689, Final residual = 7.53189e-09, No Iterations 12
+DILUPBiCG:  Solving for T, Initial residual = 0.00794379, Final residual = 4.43431e-09, No Iterations 10
+DILUPBiCG:  Solving for T, Initial residual = 0.00111369, Final residual = 2.39556e-09, No Iterations 8
+DILUPBiCG:  Solving for T, Initial residual = 0.000301758, Final residual = 8.53886e-09, No Iterations 6
+ T goes from min(T) [0 0 0 0 0 0 0] -0.0441143 to max(T) [0 0 0 0 0 0 0] 0.998146
+
+ExecutionTime = 20.22 s  ClockTime = 371 s
+
+Time = 1.15
+Courant Number mean: 3.14315 max: 8.9683
+DILUPBiCG:  Solving for T, Initial residual = 0.0955595, Final residual = 7.22304e-09, No Iterations 11
+DILUPBiCG:  Solving for T, Initial residual = 0.00802721, Final residual = 2.46258e-09, No Iterations 10
+DILUPBiCG:  Solving for T, Initial residual = 0.00110492, Final residual = 9.39811e-09, No Iterations 7
+DILUPBiCG:  Solving for T, Initial residual = 0.000298913, Final residual = 4.19605e-09, No Iterations 6
+ T goes from min(T) [0 0 0 0 0 0 0] -0.0592577 to max(T) [0 0 0 0 0 0 0] 0.9987
+
+ExecutionTime = 20.73 s  ClockTime = 380 s
+
+Time = 1.2
+Courant Number mean: 3.10345 max: 8.66989
+DILUPBiCG:  Solving for T, Initial residual = 0.098851, Final residual = 4.69749e-09, No Iterations 11
+DILUPBiCG:  Solving for T, Initial residual = 0.00811969, Final residual = 6.3788e-09, No Iterations 9
+DILUPBiCG:  Solving for T, Initial residual = 0.0010749, Final residual = 1.2494e-09, No Iterations 8
+DILUPBiCG:  Solving for T, Initial residual = 0.00028382, Final residual = 4.76741e-09, No Iterations 6
+ T goes from min(T) [0 0 0 0 0 0 0] -0.0757685 to max(T) [0 0 0 0 0 0 0] 0.997696
+
+ExecutionTime = 21.25 s  ClockTime = 389 s
+
+Time = 1.25
+Courant Number mean: 3.07596 max: 8.34156
+DILUPBiCG:  Solving for T, Initial residual = 0.102289, Final residual = 3.97609e-09, No Iterations 11
+DILUPBiCG:  Solving for T, Initial residual = 0.00824314, Final residual = 2.00892e-09, No Iterations 10
+DILUPBiCG:  Solving for T, Initial residual = 0.00104484, Final residual = 4.39583e-09, No Iterations 7
+DILUPBiCG:  Solving for T, Initial residual = 0.000263565, Final residual = 2.75306e-09, No Iterations 6
+ T goes from min(T) [0 0 0 0 0 0 0] -0.0929086 to max(T) [0 0 0 0 0 0 0] 0.995542
+
+ExecutionTime = 21.83 s  ClockTime = 399 s
+
+Time = 1.3
+Courant Number mean: 3.06054 max: 8.38194
+DILUPBiCG:  Solving for T, Initial residual = 0.105855, Final residual = 7.40613e-10, No Iterations 11
+DILUPBiCG:  Solving for T, Initial residual = 0.00841381, Final residual = 6.36088e-09, No Iterations 8
+DILUPBiCG:  Solving for T, Initial residual = 0.00102185, Final residual = 2.9264e-09, No Iterations 7
+DILUPBiCG:  Solving for T, Initial residual = 0.000242641, Final residual = 5.30924e-09, No Iterations 6
+ T goes from min(T) [0 0 0 0 0 0 0] -0.109957 to max(T) [0 0 0 0 0 0 0] 0.995877
+
+ExecutionTime = 22.4 s  ClockTime = 408 s
+
+Time = 1.35
+Courant Number mean: 3.05691 max: 8.37333
+DILUPBiCG:  Solving for T, Initial residual = 0.109465, Final residual = 6.07864e-09, No Iterations 10
+DILUPBiCG:  Solving for T, Initial residual = 0.00863212, Final residual = 7.76205e-10, No Iterations 10
+DILUPBiCG:  Solving for T, Initial residual = 0.00101557, Final residual = 1.61387e-09, No Iterations 7
+DILUPBiCG:  Solving for T, Initial residual = 0.000225905, Final residual = 2.6635e-09, No Iterations 6
+ T goes from min(T) [0 0 0 0 0 0 0] -0.127691 to max(T) [0 0 0 0 0 0 0] 0.993029
+
+ExecutionTime = 22.96 s  ClockTime = 418 s
+
+Time = 1.4
+Courant Number mean: 3.0641 max: 8.31973
+DILUPBiCG:  Solving for T, Initial residual = 0.113156, Final residual = 4.10856e-09, No Iterations 10
+DILUPBiCG:  Solving for T, Initial residual = 0.00889483, Final residual = 6.96685e-09, No Iterations 8
+DILUPBiCG:  Solving for T, Initial residual = 0.00102605, Final residual = 4.96279e-09, No Iterations 7
+DILUPBiCG:  Solving for T, Initial residual = 0.000214667, Final residual = 1.90906e-09, No Iterations 6
+ T goes from min(T) [0 0 0 0 0 0 0] -0.144602 to max(T) [0 0 0 0 0 0 0] 0.992039
+
+ExecutionTime = 23.51 s  ClockTime = 427 s
+
+Time = 1.45
+Courant Number mean: 3.08069 max: 8.21886
+DILUPBiCG:  Solving for T, Initial residual = 0.116835, Final residual = 2.88424e-09, No Iterations 10
+DILUPBiCG:  Solving for T, Initial residual = 0.00919005, Final residual = 3.44705e-09, No Iterations 8
+DILUPBiCG:  Solving for T, Initial residual = 0.00105341, Final residual = 2.27575e-09, No Iterations 7
+DILUPBiCG:  Solving for T, Initial residual = 0.00020895, Final residual = 2.41275e-09, No Iterations 6
+ T goes from min(T) [0 0 0 0 0 0 0] -0.161898 to max(T) [0 0 0 0 0 0 0] 0.989942
+
+ExecutionTime = 24.07 s  ClockTime = 437 s
+
+Time = 1.5
+Courant Number mean: 3.10423 max: 8.07649
+DILUPBiCG:  Solving for T, Initial residual = 0.120502, Final residual = 2.32783e-09, No Iterations 10
+DILUPBiCG:  Solving for T, Initial residual = 0.00952382, Final residual = 2.77283e-09, No Iterations 8
+DILUPBiCG:  Solving for T, Initial residual = 0.00109272, Final residual = 3.75668e-09, No Iterations 7
+DILUPBiCG:  Solving for T, Initial residual = 0.000207477, Final residual = 4.23722e-09, No Iterations 6
+ T goes from min(T) [0 0 0 0 0 0 0] -0.178218 to max(T) [0 0 0 0 0 0 0] 0.985056
+
+ExecutionTime = 24.62 s  ClockTime = 446 s
+
+Time = 1.55
+Courant Number mean: 3.13322 max: 7.89861
+DILUPBiCG:  Solving for T, Initial residual = 0.124155, Final residual = 4.35944e-09, No Iterations 10
+DILUPBiCG:  Solving for T, Initial residual = 0.0098617, Final residual = 8.92408e-09, No Iterations 8
+DILUPBiCG:  Solving for T, Initial residual = 0.00114073, Final residual = 4.39194e-09, No Iterations 7
+DILUPBiCG:  Solving for T, Initial residual = 0.000209249, Final residual = 4.7257e-09, No Iterations 6
+ T goes from min(T) [0 0 0 0 0 0 0] -0.193357 to max(T) [0 0 0 0 0 0 0] 0.986272
+
+ExecutionTime = 25.17 s  ClockTime = 455 s
+
+Time = 1.6
+Courant Number mean: 3.16595 max: 7.70794
+DILUPBiCG:  Solving for T, Initial residual = 0.127776, Final residual = 3.53004e-09, No Iterations 10
+DILUPBiCG:  Solving for T, Initial residual = 0.0102102, Final residual = 1.7764e-09, No Iterations 9
+DILUPBiCG:  Solving for T, Initial residual = 0.00119287, Final residual = 6.07416e-09, No Iterations 7
+DILUPBiCG:  Solving for T, Initial residual = 0.000213828, Final residual = 1.72086e-09, No Iterations 7
+ T goes from min(T) [0 0 0 0 0 0 0] -0.208433 to max(T) [0 0 0 0 0 0 0] 0.978723
+
+ExecutionTime = 25.73 s  ClockTime = 465 s
+
+Time = 1.65
+Courant Number mean: 3.20134 max: 7.50968
+DILUPBiCG:  Solving for T, Initial residual = 0.13137, Final residual = 3.68877e-09, No Iterations 10
+DILUPBiCG:  Solving for T, Initial residual = 0.0105489, Final residual = 4.97158e-09, No Iterations 9
+DILUPBiCG:  Solving for T, Initial residual = 0.00125099, Final residual = 9.17483e-09, No Iterations 7
+DILUPBiCG:  Solving for T, Initial residual = 0.000221798, Final residual = 2.20818e-09, No Iterations 7
+ T goes from min(T) [0 0 0 0 0 0 0] -0.221757 to max(T) [0 0 0 0 0 0 0] 0.967604
+
+ExecutionTime = 26.28 s  ClockTime = 474 s
+
+Time = 1.7
+Courant Number mean: 3.23885 max: 7.30373
+DILUPBiCG:  Solving for T, Initial residual = 0.134938, Final residual = 4.70307e-09, No Iterations 10
+DILUPBiCG:  Solving for T, Initial residual = 0.0108899, Final residual = 9.5074e-09, No Iterations 8
+DILUPBiCG:  Solving for T, Initial residual = 0.00131772, Final residual = 2.89915e-09, No Iterations 8
+DILUPBiCG:  Solving for T, Initial residual = 0.000234046, Final residual = 3.0837e-09, No Iterations 7
+ T goes from min(T) [0 0 0 0 0 0 0] -0.234539 to max(T) [0 0 0 0 0 0 0] 0.964607
+
+ExecutionTime = 26.83 s  ClockTime = 484 s
+
+Time = 1.75
+Courant Number mean: 3.2781 max: 7.09133
+DILUPBiCG:  Solving for T, Initial residual = 0.13835, Final residual = 3.01388e-09, No Iterations 11
+DILUPBiCG:  Solving for T, Initial residual = 0.0112645, Final residual = 3.00125e-09, No Iterations 9
+DILUPBiCG:  Solving for T, Initial residual = 0.0013916, Final residual = 9.20373e-09, No Iterations 7
+DILUPBiCG:  Solving for T, Initial residual = 0.000251537, Final residual = 7.14725e-09, No Iterations 6
+ T goes from min(T) [0 0 0 0 0 0 0] -0.246931 to max(T) [0 0 0 0 0 0 0] 0.959298
+
+ExecutionTime = 27.4 s  ClockTime = 493 s
+
+Time = 1.8
+Courant Number mean: 3.31891 max: 6.87223
+DILUPBiCG:  Solving for T, Initial residual = 0.141729, Final residual = 2.19473e-09, No Iterations 12
+DILUPBiCG:  Solving for T, Initial residual = 0.0116575, Final residual = 6.84716e-09, No Iterations 9
+DILUPBiCG:  Solving for T, Initial residual = 0.00147449, Final residual = 3.52426e-09, No Iterations 8
+DILUPBiCG:  Solving for T, Initial residual = 0.000272413, Final residual = 1.35784e-09, No Iterations 8
+ T goes from min(T) [0 0 0 0 0 0 0] -0.257981 to max(T) [0 0 0 0 0 0 0] 0.960451
+
+ExecutionTime = 27.97 s  ClockTime = 503 s
+
+Time = 1.85
+Courant Number mean: 3.36084 max: 6.64804
+DILUPBiCG:  Solving for T, Initial residual = 0.14495, Final residual = 5.84366e-09, No Iterations 11
+DILUPBiCG:  Solving for T, Initial residual = 0.0120665, Final residual = 5.97506e-09, No Iterations 9
+DILUPBiCG:  Solving for T, Initial residual = 0.00155744, Final residual = 8.40621e-10, No Iterations 9
+DILUPBiCG:  Solving for T, Initial residual = 0.000293595, Final residual = 7.81958e-09, No Iterations 6
+ T goes from min(T) [0 0 0 0 0 0 0] -0.267681 to max(T) [0 0 0 0 0 0 0] 0.961827
+
+ExecutionTime = 28.55 s  ClockTime = 513 s
+
+Time = 1.9
+Courant Number mean: 3.40321 max: 6.42036
+DILUPBiCG:  Solving for T, Initial residual = 0.148021, Final residual = 3.16359e-09, No Iterations 11
+DILUPBiCG:  Solving for T, Initial residual = 0.0124439, Final residual = 5.04015e-09, No Iterations 9
+DILUPBiCG:  Solving for T, Initial residual = 0.00164376, Final residual = 9.1566e-10, No Iterations 9
+DILUPBiCG:  Solving for T, Initial residual = 0.000320184, Final residual = 7.41668e-09, No Iterations 6
+ T goes from min(T) [0 0 0 0 0 0 0] -0.277808 to max(T) [0 0 0 0 0 0 0] 0.958967
+
+ExecutionTime = 29.11 s  ClockTime = 522 s
+
+Time = 1.95
+Courant Number mean: 3.44473 max: 6.18978
+DILUPBiCG:  Solving for T, Initial residual = 0.15083, Final residual = 4.77508e-09, No Iterations 11
+DILUPBiCG:  Solving for T, Initial residual = 0.0128833, Final residual = 7.19186e-09, No Iterations 9
+DILUPBiCG:  Solving for T, Initial residual = 0.00175639, Final residual = 9.1572e-10, No Iterations 9
+DILUPBiCG:  Solving for T, Initial residual = 0.000351314, Final residual = 3.24763e-09, No Iterations 7
+ T goes from min(T) [0 0 0 0 0 0 0] -0.285528 to max(T) [0 0 0 0 0 0 0] 0.94465
+
+ExecutionTime = 29.67 s  ClockTime = 532 s
+
+Time = 2
+Courant Number mean: 3.48099 max: 5.95638
+DILUPBiCG:  Solving for T, Initial residual = 0.153523, Final residual = 9.23307e-09, No Iterations 12
+DILUPBiCG:  Solving for T, Initial residual = 0.0132957, Final residual = 8.72287e-09, No Iterations 9
+DILUPBiCG:  Solving for T, Initial residual = 0.0018456, Final residual = 1.15363e-09, No Iterations 9
+DILUPBiCG:  Solving for T, Initial residual = 0.000377676, Final residual = 3.49864e-09, No Iterations 7
+ T goes from min(T) [0 0 0 0 0 0 0] -0.293296 to max(T) [0 0 0 0 0 0 0] 0.947815
+
+ExecutionTime = 30.23 s  ClockTime = 542 s
+
+Time = 2.05
+Courant Number mean: 3.50749 max: 5.72335
+DILUPBiCG:  Solving for T, Initial residual = 0.155914, Final residual = 6.5156e-09, No Iterations 11
+DILUPBiCG:  Solving for T, Initial residual = 0.0136283, Final residual = 1.92561e-09, No Iterations 10
+DILUPBiCG:  Solving for T, Initial residual = 0.0019174, Final residual = 5.24684e-09, No Iterations 8
+DILUPBiCG:  Solving for T, Initial residual = 0.000398028, Final residual = 4.87794e-09, No Iterations 7
+ T goes from min(T) [0 0 0 0 0 0 0] -0.300895 to max(T) [0 0 0 0 0 0 0] 0.937755
+
+ExecutionTime = 30.8 s  ClockTime = 551 s
+
+Time = 2.1
+Courant Number mean: 3.52394 max: 5.48981
+DILUPBiCG:  Solving for T, Initial residual = 0.15793, Final residual = 5.68506e-09, No Iterations 11
+DILUPBiCG:  Solving for T, Initial residual = 0.0139772, Final residual = 5.20275e-09, No Iterations 9
+DILUPBiCG:  Solving for T, Initial residual = 0.00201468, Final residual = 8.54324e-09, No Iterations 8
+DILUPBiCG:  Solving for T, Initial residual = 0.000421262, Final residual = 1.37261e-09, No Iterations 8
+ T goes from min(T) [0 0 0 0 0 0 0] -0.306672 to max(T) [0 0 0 0 0 0 0] 0.936809
+
+ExecutionTime = 31.35 s  ClockTime = 561 s
+
+Time = 2.15
+Courant Number mean: 3.53053 max: 5.25934
+DILUPBiCG:  Solving for T, Initial residual = 0.159895, Final residual = 3.32061e-09, No Iterations 11
+DILUPBiCG:  Solving for T, Initial residual = 0.0142761, Final residual = 3.43975e-10, No Iterations 11
+DILUPBiCG:  Solving for T, Initial residual = 0.0020863, Final residual = 9.97175e-09, No Iterations 8
+DILUPBiCG:  Solving for T, Initial residual = 0.000439695, Final residual = 1.26188e-09, No Iterations 8
+ T goes from min(T) [0 0 0 0 0 0 0] -0.311797 to max(T) [0 0 0 0 0 0 0] 0.92425
+
+ExecutionTime = 31.91 s  ClockTime = 570 s
+
+Time = 2.2
+Courant Number mean: 3.52774 max: 5.031
+DILUPBiCG:  Solving for T, Initial residual = 0.161686, Final residual = 4.07911e-09, No Iterations 11
+DILUPBiCG:  Solving for T, Initial residual = 0.0144926, Final residual = 6.55469e-09, No Iterations 9
+DILUPBiCG:  Solving for T, Initial residual = 0.00214266, Final residual = 5.25441e-09, No Iterations 8
+DILUPBiCG:  Solving for T, Initial residual = 0.000445637, Final residual = 9.86231e-09, No Iterations 8
+ T goes from min(T) [0 0 0 0 0 0 0] -0.318171 to max(T) [0 0 0 0 0 0 0] 0.925795
+
+ExecutionTime = 32.47 s  ClockTime = 580 s
+
+Time = 2.25
+Courant Number mean: 3.51633 max: 4.80814
+DILUPBiCG:  Solving for T, Initial residual = 0.163417, Final residual = 2.05013e-09, No Iterations 11
+DILUPBiCG:  Solving for T, Initial residual = 0.014667, Final residual = 6.04032e-09, No Iterations 9
+DILUPBiCG:  Solving for T, Initial residual = 0.00218084, Final residual = 6.44793e-09, No Iterations 8
+DILUPBiCG:  Solving for T, Initial residual = 0.000454697, Final residual = 4.952e-09, No Iterations 7
+ T goes from min(T) [0 0 0 0 0 0 0] -0.322696 to max(T) [0 0 0 0 0 0 0] 0.913637
+
+ExecutionTime = 33.02 s  ClockTime = 589 s
+
+Time = 2.3
+Courant Number mean: 3.4973 max: 4.5921
+DILUPBiCG:  Solving for T, Initial residual = 0.164949, Final residual = 2.80577e-09, No Iterations 11
+DILUPBiCG:  Solving for T, Initial residual = 0.014732, Final residual = 4.38076e-09, No Iterations 9
+DILUPBiCG:  Solving for T, Initial residual = 0.00219848, Final residual = 7.85762e-09, No Iterations 8
+DILUPBiCG:  Solving for T, Initial residual = 0.000449738, Final residual = 2.51358e-09, No Iterations 7
+ T goes from min(T) [0 0 0 0 0 0 0] -0.326946 to max(T) [0 0 0 0 0 0 0] 0.909342
+
+ExecutionTime = 33.57 s  ClockTime = 598 s
+
+Time = 2.35
+Courant Number mean: 3.4719 max: 4.38508
+DILUPBiCG:  Solving for T, Initial residual = 0.166319, Final residual = 3.73917e-09, No Iterations 11
+DILUPBiCG:  Solving for T, Initial residual = 0.0147631, Final residual = 9.07204e-09, No Iterations 8
+DILUPBiCG:  Solving for T, Initial residual = 0.00219061, Final residual = 6.60776e-09, No Iterations 7
+DILUPBiCG:  Solving for T, Initial residual = 0.000444448, Final residual = 1.61766e-09, No Iterations 7
+ T goes from min(T) [0 0 0 0 0 0 0] -0.3317 to max(T) [0 0 0 0 0 0 0] 0.909189
+
+ExecutionTime = 34.12 s  ClockTime = 608 s
+
+Time = 2.4
+Courant Number mean: 3.44156 max: 4.18981
+DILUPBiCG:  Solving for T, Initial residual = 0.167326, Final residual = 1.14882e-09, No Iterations 11
+DILUPBiCG:  Solving for T, Initial residual = 0.0146834, Final residual = 6.78444e-09, No Iterations 8
+DILUPBiCG:  Solving for T, Initial residual = 0.00216663, Final residual = 4.97582e-09, No Iterations 7
+DILUPBiCG:  Solving for T, Initial residual = 0.000433727, Final residual = 1.00427e-09, No Iterations 7
+ T goes from min(T) [0 0 0 0 0 0 0] -0.336521 to max(T) [0 0 0 0 0 0 0] 0.902313
+
+ExecutionTime = 34.67 s  ClockTime = 617 s
+
+Time = 2.45
+Courant Number mean: 3.40783 max: 4.00884
+DILUPBiCG:  Solving for T, Initial residual = 0.168251, Final residual = 3.73775e-09, No Iterations 10
+DILUPBiCG:  Solving for T, Initial residual = 0.0145713, Final residual = 6.0171e-09, No Iterations 8
+DILUPBiCG:  Solving for T, Initial residual = 0.00213612, Final residual = 8.60594e-09, No Iterations 7
+DILUPBiCG:  Solving for T, Initial residual = 0.000419571, Final residual = 3.60498e-09, No Iterations 6
+ T goes from min(T) [0 0 0 0 0 0 0] -0.340321 to max(T) [0 0 0 0 0 0 0] 0.903835
+
+ExecutionTime = 35.31 s  ClockTime = 628 s
+
+Time = 2.5
+Courant Number mean: 3.37239 max: 3.95406
+DILUPBiCG:  Solving for T, Initial residual = 0.169106, Final residual = 2.90137e-09, No Iterations 10
+DILUPBiCG:  Solving for T, Initial residual = 0.0144278, Final residual = 1.10009e-09, No Iterations 9
+DILUPBiCG:  Solving for T, Initial residual = 0.00208746, Final residual = 3.09685e-09, No Iterations 7
+DILUPBiCG:  Solving for T, Initial residual = 0.000406141, Final residual = 2.79102e-09, No Iterations 6
+ T goes from min(T) [0 0 0 0 0 0 0] -0.344927 to max(T) [0 0 0 0 0 0 0] 0.89691
+
+ExecutionTime = 36.04 s  ClockTime = 640 s
+
+Time = 2.55
+Courant Number mean: 3.33695 max: 4.15409
+DILUPBiCG:  Solving for T, Initial residual = 0.169598, Final residual = 5.21143e-09, No Iterations 9
+DILUPBiCG:  Solving for T, Initial residual = 0.014237, Final residual = 2.89662e-09, No Iterations 8
+DILUPBiCG:  Solving for T, Initial residual = 0.00203296, Final residual = 9.41245e-09, No Iterations 6
+DILUPBiCG:  Solving for T, Initial residual = 0.000388835, Final residual = 5.02126e-09, No Iterations 6
+ T goes from min(T) [0 0 0 0 0 0 0] -0.347789 to max(T) [0 0 0 0 0 0 0] 0.901682
+
+ExecutionTime = 36.59 s  ClockTime = 650 s
+
+Time = 2.6
+Courant Number mean: 3.30323 max: 4.36815
+DILUPBiCG:  Solving for T, Initial residual = 0.169857, Final residual = 3.7864e-09, No Iterations 9
+DILUPBiCG:  Solving for T, Initial residual = 0.0140235, Final residual = 2.47228e-09, No Iterations 8
+DILUPBiCG:  Solving for T, Initial residual = 0.00197407, Final residual = 3.348e-09, No Iterations 7
+DILUPBiCG:  Solving for T, Initial residual = 0.000373524, Final residual = 9.51759e-09, No Iterations 5
+ T goes from min(T) [0 0 0 0 0 0 0] -0.352159 to max(T) [0 0 0 0 0 0 0] 0.899488
+
+ExecutionTime = 37.14 s  ClockTime = 659 s
+
+Time = 2.65
+Courant Number mean: 3.27288 max: 4.59067
+DILUPBiCG:  Solving for T, Initial residual = 0.169934, Final residual = 3.1932e-09, No Iterations 9
+DILUPBiCG:  Solving for T, Initial residual = 0.0137881, Final residual = 3.14509e-10, No Iterations 9
+DILUPBiCG:  Solving for T, Initial residual = 0.00191216, Final residual = 3.13049e-09, No Iterations 7
+DILUPBiCG:  Solving for T, Initial residual = 0.000358685, Final residual = 2.04786e-09, No Iterations 6
+ T goes from min(T) [0 0 0 0 0 0 0] -0.356172 to max(T) [0 0 0 0 0 0 0] 0.896679
+
+ExecutionTime = 37.75 s  ClockTime = 669 s
+
+Time = 2.7
+Courant Number mean: 3.24748 max: 4.81623
+DILUPBiCG:  Solving for T, Initial residual = 0.169812, Final residual = 3.38139e-09, No Iterations 9
+DILUPBiCG:  Solving for T, Initial residual = 0.0135515, Final residual = 3.33909e-09, No Iterations 8
+DILUPBiCG:  Solving for T, Initial residual = 0.00185237, Final residual = 9.85896e-09, No Iterations 6
+DILUPBiCG:  Solving for T, Initial residual = 0.000345038, Final residual = 2.09228e-09, No Iterations 6
+ T goes from min(T) [0 0 0 0 0 0 0] -0.359605 to max(T) [0 0 0 0 0 0 0] 0.89918
+
+ExecutionTime = 38.31 s  ClockTime = 679 s
+
+Time = 2.75
+Courant Number mean: 3.22846 max: 5.03916
+DILUPBiCG:  Solving for T, Initial residual = 0.169452, Final residual = 7.15429e-10, No Iterations 10
+DILUPBiCG:  Solving for T, Initial residual = 0.0133018, Final residual = 2.72352e-09, No Iterations 8
+DILUPBiCG:  Solving for T, Initial residual = 0.00179915, Final residual = 5.06067e-09, No Iterations 7
+DILUPBiCG:  Solving for T, Initial residual = 0.000334656, Final residual = 9.98652e-09, No Iterations 5
+ T goes from min(T) [0 0 0 0 0 0 0] -0.362942 to max(T) [0 0 0 0 0 0 0] 0.898717
+
+ExecutionTime = 38.87 s  ClockTime = 688 s
+
+Time = 2.8
+Courant Number mean: 3.21705 max: 5.25414
+DILUPBiCG:  Solving for T, Initial residual = 0.169005, Final residual = 1.73298e-09, No Iterations 10
+DILUPBiCG:  Solving for T, Initial residual = 0.013049, Final residual = 1.23997e-09, No Iterations 9
+DILUPBiCG:  Solving for T, Initial residual = 0.00175101, Final residual = 3.1543e-09, No Iterations 7
+DILUPBiCG:  Solving for T, Initial residual = 0.000326954, Final residual = 9.49923e-09, No Iterations 5
+ T goes from min(T) [0 0 0 0 0 0 0] -0.366856 to max(T) [0 0 0 0 0 0 0] 0.900436
+
+ExecutionTime = 39.43 s  ClockTime = 698 s
+
+Time = 2.85
+Courant Number mean: 3.21425 max: 5.46461
+DILUPBiCG:  Solving for T, Initial residual = 0.168314, Final residual = 8.50399e-09, No Iterations 10
+DILUPBiCG:  Solving for T, Initial residual = 0.0128102, Final residual = 8.3501e-09, No Iterations 8
+DILUPBiCG:  Solving for T, Initial residual = 0.00171004, Final residual = 2.6177e-09, No Iterations 8
+DILUPBiCG:  Solving for T, Initial residual = 0.000321989, Final residual = 8.98271e-09, No Iterations 6
+ T goes from min(T) [0 0 0 0 0 0 0] -0.371449 to max(T) [0 0 0 0 0 0 0] 0.900588
+
+ExecutionTime = 39.99 s  ClockTime = 707 s
+
+Time = 2.9
+Courant Number mean: 3.22084 max: 5.67181
+DILUPBiCG:  Solving for T, Initial residual = 0.167365, Final residual = 5.2601e-09, No Iterations 10
+DILUPBiCG:  Solving for T, Initial residual = 0.0125892, Final residual = 1.60033e-09, No Iterations 10
+DILUPBiCG:  Solving for T, Initial residual = 0.00167974, Final residual = 2.5162e-09, No Iterations 8
+DILUPBiCG:  Solving for T, Initial residual = 0.000319886, Final residual = 3.3825e-10, No Iterations 8
+ T goes from min(T) [0 0 0 0 0 0 0] -0.375775 to max(T) [0 0 0 0 0 0 0] 0.899595
+
+ExecutionTime = 40.55 s  ClockTime = 717 s
+
+Time = 2.95
+Courant Number mean: 3.2373 max: 5.87409
+DILUPBiCG:  Solving for T, Initial residual = 0.16625, Final residual = 2.01881e-09, No Iterations 11
+DILUPBiCG:  Solving for T, Initial residual = 0.012395, Final residual = 4.92621e-09, No Iterations 9
+DILUPBiCG:  Solving for T, Initial residual = 0.00165808, Final residual = 2.21637e-09, No Iterations 8
+DILUPBiCG:  Solving for T, Initial residual = 0.000319655, Final residual = 8.07832e-09, No Iterations 6
+ T goes from min(T) [0 0 0 0 0 0 0] -0.378129 to max(T) [0 0 0 0 0 0 0] 0.90029
+
+ExecutionTime = 41.11 s  ClockTime = 726 s
+
+Time = 3
+Courant Number mean: 3.26404 max: 6.07153
+DILUPBiCG:  Solving for T, Initial residual = 0.165013, Final residual = 3.85324e-09, No Iterations 11
+DILUPBiCG:  Solving for T, Initial residual = 0.0122492, Final residual = 1.89807e-09, No Iterations 10
+DILUPBiCG:  Solving for T, Initial residual = 0.00164959, Final residual = 3.64551e-09, No Iterations 8
+DILUPBiCG:  Solving for T, Initial residual = 0.000322917, Final residual = 7.51996e-09, No Iterations 6
+ T goes from min(T) [0 0 0 0 0 0 0] -0.382723 to max(T) [0 0 0 0 0 0 0] 0.901609
+
+ExecutionTime = 41.66 s  ClockTime = 735 s
+
+Time = 3.05
+Courant Number mean: 3.30195 max: 6.26204
+DILUPBiCG:  Solving for T, Initial residual = 0.163518, Final residual = 8.57928e-09, No Iterations 11
+DILUPBiCG:  Solving for T, Initial residual = 0.0121444, Final residual = 5.47379e-09, No Iterations 9
+DILUPBiCG:  Solving for T, Initial residual = 0.00165434, Final residual = 4.09345e-09, No Iterations 8
+DILUPBiCG:  Solving for T, Initial residual = 0.000328062, Final residual = 5.24276e-09, No Iterations 7
+ T goes from min(T) [0 0 0 0 0 0 0] -0.386625 to max(T) [0 0 0 0 0 0 0] 0.903972
+
+ExecutionTime = 42.21 s  ClockTime = 743 s
+
+Time = 3.1
+Courant Number mean: 3.35259 max: 6.44545
+DILUPBiCG:  Solving for T, Initial residual = 0.1619, Final residual = 3.78651e-09, No Iterations 12
+DILUPBiCG:  Solving for T, Initial residual = 0.0121171, Final residual = 8.6581e-10, No Iterations 11
+DILUPBiCG:  Solving for T, Initial residual = 0.00166771, Final residual = 3.24342e-09, No Iterations 8
+DILUPBiCG:  Solving for T, Initial residual = 0.000334822, Final residual = 7.286e-09, No Iterations 7
+ T goes from min(T) [0 0 0 0 0 0 0] -0.38976 to max(T) [0 0 0 0 0 0 0] 0.904704
+
+ExecutionTime = 42.77 s  ClockTime = 752 s
+
+Time = 3.15
+Courant Number mean: 3.41344 max: 6.62143
+DILUPBiCG:  Solving for T, Initial residual = 0.160025, Final residual = 6.12271e-09, No Iterations 13
+DILUPBiCG:  Solving for T, Initial residual = 0.0122002, Final residual = 5.41221e-09, No Iterations 10
+DILUPBiCG:  Solving for T, Initial residual = 0.00169785, Final residual = 5.45688e-09, No Iterations 8
+DILUPBiCG:  Solving for T, Initial residual = 0.000343942, Final residual = 9.75922e-09, No Iterations 7
+ T goes from min(T) [0 0 0 0 0 0 0] -0.392487 to max(T) [0 0 0 0 0 0 0] 0.904889
+
+ExecutionTime = 43.35 s  ClockTime = 761 s
+
+Time = 3.2
+Courant Number mean: 3.48078 max: 6.78851
+DILUPBiCG:  Solving for T, Initial residual = 0.157988, Final residual = 5.95218e-09, No Iterations 13
+DILUPBiCG:  Solving for T, Initial residual = 0.012343, Final residual = 4.72549e-09, No Iterations 10
+DILUPBiCG:  Solving for T, Initial residual = 0.00174054, Final residual = 9.73759e-09, No Iterations 8
+DILUPBiCG:  Solving for T, Initial residual = 0.000358377, Final residual = 2.87361e-09, No Iterations 8
+ T goes from min(T) [0 0 0 0 0 0 0] -0.39321 to max(T) [0 0 0 0 0 0 0] 0.904697
+
+ExecutionTime = 43.94 s  ClockTime = 770 s
+
+Time = 3.25
+Courant Number mean: 3.55243 max: 6.9462
+DILUPBiCG:  Solving for T, Initial residual = 0.15575, Final residual = 1.58591e-09, No Iterations 14
+DILUPBiCG:  Solving for T, Initial residual = 0.0125059, Final residual = 2.17549e-09, No Iterations 11
+DILUPBiCG:  Solving for T, Initial residual = 0.00179295, Final residual = 2.07216e-09, No Iterations 10
+DILUPBiCG:  Solving for T, Initial residual = 0.000376814, Final residual = 5.71757e-09, No Iterations 8
+ T goes from min(T) [0 0 0 0 0 0 0] -0.396715 to max(T) [0 0 0 0 0 0 0] 0.905055
+
+ExecutionTime = 44.5 s  ClockTime = 778 s
+
+Time = 3.3
+Courant Number mean: 3.62671 max: 7.09316
+DILUPBiCG:  Solving for T, Initial residual = 0.153388, Final residual = 4.149e-09, No Iterations 13
+DILUPBiCG:  Solving for T, Initial residual = 0.0126534, Final residual = 5.22113e-09, No Iterations 11
+DILUPBiCG:  Solving for T, Initial residual = 0.00185209, Final residual = 5.74991e-09, No Iterations 10
+DILUPBiCG:  Solving for T, Initial residual = 0.000394858, Final residual = 5.05436e-09, No Iterations 8
+ T goes from min(T) [0 0 0 0 0 0 0] -0.398347 to max(T) [0 0 0 0 0 0 0] 0.905926
+
+ExecutionTime = 45.11 s  ClockTime = 787 s
+
+Time = 3.35
+Courant Number mean: 3.70226 max: 7.23024
+DILUPBiCG:  Solving for T, Initial residual = 0.150675, Final residual = 2.57727e-09, No Iterations 14
+DILUPBiCG:  Solving for T, Initial residual = 0.0127586, Final residual = 1.8674e-09, No Iterations 12
+DILUPBiCG:  Solving for T, Initial residual = 0.00189485, Final residual = 6.63833e-09, No Iterations 9
+DILUPBiCG:  Solving for T, Initial residual = 0.000413257, Final residual = 6.41134e-09, No Iterations 8
+ T goes from min(T) [0 0 0 0 0 0 0] -0.399487 to max(T) [0 0 0 0 0 0 0] 0.905101
+
+ExecutionTime = 45.66 s  ClockTime = 795 s
+
+Time = 3.4
+Courant Number mean: 3.77781 max: 7.35452
+DILUPBiCG:  Solving for T, Initial residual = 0.147927, Final residual = 7.88697e-09, No Iterations 14
+DILUPBiCG:  Solving for T, Initial residual = 0.0127986, Final residual = 6.39488e-09, No Iterations 11
+DILUPBiCG:  Solving for T, Initial residual = 0.00193678, Final residual = 6.84236e-09, No Iterations 9
+DILUPBiCG:  Solving for T, Initial residual = 0.000430936, Final residual = 2.5891e-09, No Iterations 9
+ T goes from min(T) [0 0 0 0 0 0 0] -0.399067 to max(T) [0 0 0 0 0 0 0] 0.907976
+
+ExecutionTime = 46.22 s  ClockTime = 804 s
+
+Time = 3.45
+Courant Number mean: 3.85215 max: 7.46924
+DILUPBiCG:  Solving for T, Initial residual = 0.145013, Final residual = 6.37802e-09, No Iterations 14
+DILUPBiCG:  Solving for T, Initial residual = 0.0128541, Final residual = 6.02236e-09, No Iterations 11
+DILUPBiCG:  Solving for T, Initial residual = 0.00198909, Final residual = 8.67017e-09, No Iterations 9
+DILUPBiCG:  Solving for T, Initial residual = 0.000455119, Final residual = 5.96329e-09, No Iterations 8
+ T goes from min(T) [0 0 0 0 0 0 0] -0.4002 to max(T) [0 0 0 0 0 0 0] 0.90654
+
+ExecutionTime = 46.81 s  ClockTime = 813 s
+
+Time = 3.5
+Courant Number mean: 3.92388 max: 7.57113
+DILUPBiCG:  Solving for T, Initial residual = 0.142164, Final residual = 7.38416e-09, No Iterations 14
+DILUPBiCG:  Solving for T, Initial residual = 0.0128934, Final residual = 8.51402e-09, No Iterations 11
+DILUPBiCG:  Solving for T, Initial residual = 0.0020501, Final residual = 5.19816e-09, No Iterations 10
+DILUPBiCG:  Solving for T, Initial residual = 0.000484434, Final residual = 7.08854e-09, No Iterations 8
+ T goes from min(T) [0 0 0 0 0 0 0] -0.400292 to max(T) [0 0 0 0 0 0 0] 0.90592
+
+ExecutionTime = 47.39 s  ClockTime = 821 s
+
+Time = 3.55
+Courant Number mean: 3.991 max: 7.66057
+DILUPBiCG:  Solving for T, Initial residual = 0.139605, Final residual = 7.15825e-09, No Iterations 14
+DILUPBiCG:  Solving for T, Initial residual = 0.0129482, Final residual = 3.94646e-09, No Iterations 12
+DILUPBiCG:  Solving for T, Initial residual = 0.00210651, Final residual = 6.1612e-09, No Iterations 10
+DILUPBiCG:  Solving for T, Initial residual = 0.000513651, Final residual = 6.95056e-09, No Iterations 8
+ T goes from min(T) [0 0 0 0 0 0 0] -0.399745 to max(T) [0 0 0 0 0 0 0] 0.907081
+
+ExecutionTime = 48 s  ClockTime = 830 s
+
+Time = 3.6
+Courant Number mean: 4.05159 max: 7.73891
+DILUPBiCG:  Solving for T, Initial residual = 0.137488, Final residual = 2.79177e-09, No Iterations 15
+DILUPBiCG:  Solving for T, Initial residual = 0.012974, Final residual = 7.84393e-09, No Iterations 11
+DILUPBiCG:  Solving for T, Initial residual = 0.00216093, Final residual = 6.90265e-10, No Iterations 12
+DILUPBiCG:  Solving for T, Initial residual = 0.000540492, Final residual = 6.07923e-09, No Iterations 8
+ T goes from min(T) [0 0 0 0 0 0 0] -0.398367 to max(T) [0 0 0 0 0 0 0] 0.907467
+
+ExecutionTime = 48.57 s  ClockTime = 839 s
+
+Time = 3.65
+Courant Number mean: 4.1051 max: 7.80407
+DILUPBiCG:  Solving for T, Initial residual = 0.135638, Final residual = 9.24623e-09, No Iterations 14
+DILUPBiCG:  Solving for T, Initial residual = 0.0130277, Final residual = 4.57169e-09, No Iterations 12
+DILUPBiCG:  Solving for T, Initial residual = 0.00222974, Final residual = 9.923e-09, No Iterations 10
+DILUPBiCG:  Solving for T, Initial residual = 0.000574195, Final residual = 9.22396e-09, No Iterations 8
+ T goes from min(T) [0 0 0 0 0 0 0] -0.397932 to max(T) [0 0 0 0 0 0 0] 0.906622
+
+ExecutionTime = 49.17 s  ClockTime = 848 s
+
+Time = 3.7
+Courant Number mean: 4.15001 max: 7.85622
+DILUPBiCG:  Solving for T, Initial residual = 0.134028, Final residual = 3.19336e-09, No Iterations 15
+DILUPBiCG:  Solving for T, Initial residual = 0.013139, Final residual = 3.48096e-09, No Iterations 12
+DILUPBiCG:  Solving for T, Initial residual = 0.00230727, Final residual = 8.13453e-09, No Iterations 10
+DILUPBiCG:  Solving for T, Initial residual = 0.000609642, Final residual = 2.1201e-09, No Iterations 9
+ T goes from min(T) [0 0 0 0 0 0 0] -0.397537 to max(T) [0 0 0 0 0 0 0] 0.904988
+
+ExecutionTime = 49.77 s  ClockTime = 857 s
+
+Time = 3.75
+Courant Number mean: 4.18487 max: 7.89724
+DILUPBiCG:  Solving for T, Initial residual = 0.132832, Final residual = 6.15568e-09, No Iterations 14
+DILUPBiCG:  Solving for T, Initial residual = 0.01332, Final residual = 4.64415e-09, No Iterations 12
+DILUPBiCG:  Solving for T, Initial residual = 0.00240752, Final residual = 8.18902e-09, No Iterations 9
+DILUPBiCG:  Solving for T, Initial residual = 0.000650565, Final residual = 1.9641e-09, No Iterations 9
+ T goes from min(T) [0 0 0 0 0 0 0] -0.396397 to max(T) [0 0 0 0 0 0 0] 0.903618
+
+ExecutionTime = 50.34 s  ClockTime = 866 s
+
+Time = 3.8
+Courant Number mean: 4.20957 max: 8.12539
+DILUPBiCG:  Solving for T, Initial residual = 0.13192, Final residual = 7.94258e-09, No Iterations 15
+DILUPBiCG:  Solving for T, Initial residual = 0.013587, Final residual = 6.51158e-09, No Iterations 12
+DILUPBiCG:  Solving for T, Initial residual = 0.00253727, Final residual = 3.52158e-09, No Iterations 11
+DILUPBiCG:  Solving for T, Initial residual = 0.000701651, Final residual = 5.6057e-09, No Iterations 9
+ T goes from min(T) [0 0 0 0 0 0 0] -0.396167 to max(T) [0 0 0 0 0 0 0] 0.905283
+
+ExecutionTime = 50.93 s  ClockTime = 874 s
+
+Time = 3.85
+Courant Number mean: 4.22363 max: 8.35265
+DILUPBiCG:  Solving for T, Initial residual = 0.131293, Final residual = 4.84823e-09, No Iterations 14
+DILUPBiCG:  Solving for T, Initial residual = 0.0139953, Final residual = 7.39016e-10, No Iterations 13
+DILUPBiCG:  Solving for T, Initial residual = 0.00269465, Final residual = 8.46954e-09, No Iterations 9
+DILUPBiCG:  Solving for T, Initial residual = 0.000762528, Final residual = 6.20139e-09, No Iterations 8
+ T goes from min(T) [0 0 0 0 0 0 0] -0.395259 to max(T) [0 0 0 0 0 0 0] 0.904356
+
+ExecutionTime = 51.51 s  ClockTime = 883 s
+
+Time = 3.9
+Courant Number mean: 4.22659 max: 8.57556
+DILUPBiCG:  Solving for T, Initial residual = 0.130908, Final residual = 2.04943e-09, No Iterations 14
+DILUPBiCG:  Solving for T, Initial residual = 0.0145129, Final residual = 7.65721e-09, No Iterations 11
+DILUPBiCG:  Solving for T, Initial residual = 0.00287942, Final residual = 1.48016e-09, No Iterations 11
+DILUPBiCG:  Solving for T, Initial residual = 0.000833481, Final residual = 6.09971e-09, No Iterations 8
+ T goes from min(T) [0 0 0 0 0 0 0] -0.394553 to max(T) [0 0 0 0 0 0 0] 0.904255
+
+ExecutionTime = 52.1 s  ClockTime = 892 s
+
+Time = 3.95
+Courant Number mean: 4.21854 max: 8.79238
+DILUPBiCG:  Solving for T, Initial residual = 0.130875, Final residual = 1.66798e-09, No Iterations 14
+DILUPBiCG:  Solving for T, Initial residual = 0.0150542, Final residual = 9.83209e-09, No Iterations 11
+DILUPBiCG:  Solving for T, Initial residual = 0.00307877, Final residual = 1.0024e-09, No Iterations 10
+DILUPBiCG:  Solving for T, Initial residual = 0.000910415, Final residual = 9.11867e-10, No Iterations 10
+ T goes from min(T) [0 0 0 0 0 0 0] -0.395274 to max(T) [0 0 0 0 0 0 0] 0.902024
+
+ExecutionTime = 52.69 s  ClockTime = 901 s
+
+Time = 4
+Courant Number mean: 4.20218 max: 9.00438
+DILUPBiCG:  Solving for T, Initial residual = 0.131237, Final residual = 7.84557e-09, No Iterations 13
+DILUPBiCG:  Solving for T, Initial residual = 0.0156505, Final residual = 5.16416e-09, No Iterations 12
+DILUPBiCG:  Solving for T, Initial residual = 0.00328596, Final residual = 8.15363e-09, No Iterations 9
+DILUPBiCG:  Solving for T, Initial residual = 0.000990811, Final residual = 2.38008e-09, No Iterations 9
+ T goes from min(T) [0 0 0 0 0 0 0] -0.394878 to max(T) [0 0 0 0 0 0 0] 0.901954
+
+ExecutionTime = 53.31 s  ClockTime = 910 s
+
+Time = 4.05
+Courant Number mean: 4.18017 max: 9.20685
+DILUPBiCG:  Solving for T, Initial residual = 0.131787, Final residual = 3.54799e-09, No Iterations 13
+DILUPBiCG:  Solving for T, Initial residual = 0.0162078, Final residual = 3.185e-09, No Iterations 11
+DILUPBiCG:  Solving for T, Initial residual = 0.00347737, Final residual = 2.33676e-09, No Iterations 10
+DILUPBiCG:  Solving for T, Initial residual = 0.0010627, Final residual = 7.27937e-09, No Iterations 8
+ T goes from min(T) [0 0 0 0 0 0 0] -0.394849 to max(T) [0 0 0 0 0 0 0] 0.902287
+
+ExecutionTime = 53.9 s  ClockTime = 919 s
+
+Time = 4.1
+Courant Number mean: 4.15364 max: 9.4039
+DILUPBiCG:  Solving for T, Initial residual = 0.132323, Final residual = 7.05728e-09, No Iterations 12
+DILUPBiCG:  Solving for T, Initial residual = 0.0167306, Final residual = 3.01276e-09, No Iterations 12
+DILUPBiCG:  Solving for T, Initial residual = 0.00365979, Final residual = 4.53911e-09, No Iterations 9
+DILUPBiCG:  Solving for T, Initial residual = 0.00112624, Final residual = 8.77839e-09, No Iterations 8
+ T goes from min(T) [0 0 0 0 0 0 0] -0.396826 to max(T) [0 0 0 0 0 0 0] 0.900055
+
+ExecutionTime = 54.48 s  ClockTime = 927 s
+
+Time = 4.15
+Courant Number mean: 4.12332 max: 9.5898
+DILUPBiCG:  Solving for T, Initial residual = 0.132904, Final residual = 8.24816e-09, No Iterations 12
+DILUPBiCG:  Solving for T, Initial residual = 0.0172, Final residual = 6.32926e-09, No Iterations 11
+DILUPBiCG:  Solving for T, Initial residual = 0.00381552, Final residual = 5.82156e-09, No Iterations 10
+DILUPBiCG:  Solving for T, Initial residual = 0.00117967, Final residual = 6.06984e-09, No Iterations 9
+ T goes from min(T) [0 0 0 0 0 0 0] -0.398069 to max(T) [0 0 0 0 0 0 0] 0.898386
+
+ExecutionTime = 55.04 s  ClockTime = 936 s
+
+Time = 4.2
+Courant Number mean: 4.0897 max: 9.76663
+DILUPBiCG:  Solving for T, Initial residual = 0.133505, Final residual = 3.51276e-09, No Iterations 13
+DILUPBiCG:  Solving for T, Initial residual = 0.0176496, Final residual = 4.23438e-09, No Iterations 11
+DILUPBiCG:  Solving for T, Initial residual = 0.00394459, Final residual = 8.18483e-10, No Iterations 11
+DILUPBiCG:  Solving for T, Initial residual = 0.00121863, Final residual = 7.75425e-09, No Iterations 8
+ T goes from min(T) [0 0 0 0 0 0 0] -0.399714 to max(T) [0 0 0 0 0 0 0] 0.897666
+
+ExecutionTime = 55.62 s  ClockTime = 945 s
+
+Time = 4.25
+Courant Number mean: 4.05328 max: 9.93563
+DILUPBiCG:  Solving for T, Initial residual = 0.134257, Final residual = 7.15233e-09, No Iterations 12
+DILUPBiCG:  Solving for T, Initial residual = 0.018048, Final residual = 5.74343e-09, No Iterations 11
+DILUPBiCG:  Solving for T, Initial residual = 0.00405799, Final residual = 8.55895e-09, No Iterations 9
+DILUPBiCG:  Solving for T, Initial residual = 0.00125243, Final residual = 1.7967e-09, No Iterations 9
+ T goes from min(T) [0 0 0 0 0 0 0] -0.403591 to max(T) [0 0 0 0 0 0 0] 0.896916
+
+ExecutionTime = 56.19 s  ClockTime = 953 s
+
+Time = 4.3
+Courant Number mean: 4.01428 max: 10.0913
+DILUPBiCG:  Solving for T, Initial residual = 0.135106, Final residual = 2.18205e-10, No Iterations 14
+DILUPBiCG:  Solving for T, Initial residual = 0.0184142, Final residual = 1.58005e-09, No Iterations 12
+DILUPBiCG:  Solving for T, Initial residual = 0.00416508, Final residual = 4.63733e-09, No Iterations 10
+DILUPBiCG:  Solving for T, Initial residual = 0.00128806, Final residual = 6.28313e-09, No Iterations 8
+ T goes from min(T) [0 0 0 0 0 0 0] -0.407401 to max(T) [0 0 0 0 0 0 0] 0.893668
+
+ExecutionTime = 56.77 s  ClockTime = 962 s
+
+Time = 4.35
+Courant Number mean: 3.97314 max: 10.235
+DILUPBiCG:  Solving for T, Initial residual = 0.135825, Final residual = 4.86324e-09, No Iterations 12
+DILUPBiCG:  Solving for T, Initial residual = 0.0187566, Final residual = 3.68243e-09, No Iterations 12
+DILUPBiCG:  Solving for T, Initial residual = 0.00428826, Final residual = 3.10215e-09, No Iterations 10
+DILUPBiCG:  Solving for T, Initial residual = 0.00132689, Final residual = 2.43571e-09, No Iterations 9
+ T goes from min(T) [0 0 0 0 0 0 0] -0.420509 to max(T) [0 0 0 0 0 0 0] 0.891473
+
+ExecutionTime = 57.36 s  ClockTime = 971 s
+
+Time = 4.4
+Courant Number mean: 3.92997 max: 10.3668
+DILUPBiCG:  Solving for T, Initial residual = 0.136457, Final residual = 9.37908e-09, No Iterations 12
+DILUPBiCG:  Solving for T, Initial residual = 0.0191509, Final residual = 1.7796e-09, No Iterations 11
+DILUPBiCG:  Solving for T, Initial residual = 0.00443764, Final residual = 8.57236e-09, No Iterations 10
+DILUPBiCG:  Solving for T, Initial residual = 0.00138152, Final residual = 3.25343e-10, No Iterations 11
+ T goes from min(T) [0 0 0 0 0 0 0] -0.436052 to max(T) [0 0 0 0 0 0 0] 0.88626
+
+ExecutionTime = 57.94 s  ClockTime = 979 s
+
+Time = 4.45
+Courant Number mean: 3.88518 max: 10.4833
+DILUPBiCG:  Solving for T, Initial residual = 0.137045, Final residual = 3.53284e-09, No Iterations 12
+DILUPBiCG:  Solving for T, Initial residual = 0.019539, Final residual = 6.03984e-09, No Iterations 10
+DILUPBiCG:  Solving for T, Initial residual = 0.00461274, Final residual = 7.52643e-09, No Iterations 8
+DILUPBiCG:  Solving for T, Initial residual = 0.00145248, Final residual = 3.03027e-09, No Iterations 8
+ T goes from min(T) [0 0 0 0 0 0 0] -0.465007 to max(T) [0 0 0 0 0 0 0] 0.883819
+
+ExecutionTime = 58.52 s  ClockTime = 988 s
+
+Time = 4.5
+Courant Number mean: 3.83903 max: 10.5879
+DILUPBiCG:  Solving for T, Initial residual = 0.13762, Final residual = 2.83177e-09, No Iterations 12
+DILUPBiCG:  Solving for T, Initial residual = 0.0199399, Final residual = 1.28195e-09, No Iterations 11
+DILUPBiCG:  Solving for T, Initial residual = 0.00478258, Final residual = 2.2268e-09, No Iterations 9
+DILUPBiCG:  Solving for T, Initial residual = 0.00152631, Final residual = 5.78849e-09, No Iterations 8
+ T goes from min(T) [0 0 0 0 0 0 0] -0.500966 to max(T) [0 0 0 0 0 0 0] 0.881517
+
+ExecutionTime = 59.12 s  ClockTime = 997 s
+
+Time = 4.55
+Courant Number mean: 3.7919 max: 10.6798
+DILUPBiCG:  Solving for T, Initial residual = 0.138183, Final residual = 6.70546e-10, No Iterations 12
+DILUPBiCG:  Solving for T, Initial residual = 0.0202914, Final residual = 2.02926e-09, No Iterations 11
+DILUPBiCG:  Solving for T, Initial residual = 0.00492507, Final residual = 4.64037e-09, No Iterations 8
+DILUPBiCG:  Solving for T, Initial residual = 0.00158413, Final residual = 1.60101e-09, No Iterations 8
+ T goes from min(T) [0 0 0 0 0 0 0] -0.542023 to max(T) [0 0 0 0 0 0 0] 0.874811
+
+ExecutionTime = 59.7 s  ClockTime = 1005 s
+
+Time = 4.6
+Courant Number mean: 3.74425 max: 10.7574
+DILUPBiCG:  Solving for T, Initial residual = 0.139054, Final residual = 3.47734e-09, No Iterations 11
+DILUPBiCG:  Solving for T, Initial residual = 0.0206347, Final residual = 8.48316e-09, No Iterations 9
+DILUPBiCG:  Solving for T, Initial residual = 0.00504918, Final residual = 7.84543e-09, No Iterations 8
+DILUPBiCG:  Solving for T, Initial residual = 0.00163403, Final residual = 4.42916e-09, No Iterations 7
+ T goes from min(T) [0 0 0 0 0 0 0] -0.575237 to max(T) [0 0 0 0 0 0 0] 0.872993
+
+ExecutionTime = 60.27 s  ClockTime = 1013 s
+
+Time = 4.65
+Courant Number mean: 3.69663 max: 10.8189
+DILUPBiCG:  Solving for T, Initial residual = 0.140036, Final residual = 1.01193e-09, No Iterations 11
+DILUPBiCG:  Solving for T, Initial residual = 0.0210022, Final residual = 8.72571e-09, No Iterations 9
+DILUPBiCG:  Solving for T, Initial residual = 0.00517188, Final residual = 5.49387e-09, No Iterations 8
+DILUPBiCG:  Solving for T, Initial residual = 0.00167669, Final residual = 5.78263e-09, No Iterations 7
+ T goes from min(T) [0 0 0 0 0 0 0] -0.592776 to max(T) [0 0 0 0 0 0 0] 0.869413
+
+ExecutionTime = 60.85 s  ClockTime = 1021 s
+
+Time = 4.7
+Courant Number mean: 3.64977 max: 10.8664
+DILUPBiCG:  Solving for T, Initial residual = 0.141183, Final residual = 2.91205e-09, No Iterations 10
+DILUPBiCG:  Solving for T, Initial residual = 0.0214159, Final residual = 2.67487e-09, No Iterations 10
+DILUPBiCG:  Solving for T, Initial residual = 0.00529291, Final residual = 7.84059e-10, No Iterations 9
+DILUPBiCG:  Solving for T, Initial residual = 0.00172246, Final residual = 1.12432e-09, No Iterations 8
+ T goes from min(T) [0 0 0 0 0 0 0] -0.604887 to max(T) [0 0 0 0 0 0 0] 0.863519
+
+ExecutionTime = 61.41 s  ClockTime = 1029 s
+
+Time = 4.75
+Courant Number mean: 3.60446 max: 10.8948
+DILUPBiCG:  Solving for T, Initial residual = 0.142303, Final residual = 5.62143e-10, No Iterations 11
+DILUPBiCG:  Solving for T, Initial residual = 0.021944, Final residual = 4.56422e-09, No Iterations 9
+DILUPBiCG:  Solving for T, Initial residual = 0.00544384, Final residual = 9.91306e-09, No Iterations 7
+DILUPBiCG:  Solving for T, Initial residual = 0.0017734, Final residual = 7.3239e-09, No Iterations 7
+ T goes from min(T) [0 0 0 0 0 0 0] -0.600417 to max(T) [0 0 0 0 0 0 0] 0.859229
+
+ExecutionTime = 62.01 s  ClockTime = 1037 s
+
+Time = 4.8
+Courant Number mean: 3.56192 max: 10.8699
+DILUPBiCG:  Solving for T, Initial residual = 0.143404, Final residual = 2.32796e-09, No Iterations 10
+DILUPBiCG:  Solving for T, Initial residual = 0.0225081, Final residual = 7.76183e-09, No Iterations 9
+DILUPBiCG:  Solving for T, Initial residual = 0.00561712, Final residual = 3.00808e-09, No Iterations 8
+DILUPBiCG:  Solving for T, Initial residual = 0.00183761, Final residual = 3.3561e-09, No Iterations 7
+ T goes from min(T) [0 0 0 0 0 0 0] -0.582756 to max(T) [0 0 0 0 0 0 0] 0.856805
+
+ExecutionTime = 62.63 s  ClockTime = 1046 s
+
+Time = 4.85
+Courant Number mean: 3.52385 max: 10.7806
+DILUPBiCG:  Solving for T, Initial residual = 0.14438, Final residual = 4.84259e-09, No Iterations 10
+DILUPBiCG:  Solving for T, Initial residual = 0.0231563, Final residual = 4.42848e-09, No Iterations 9
+DILUPBiCG:  Solving for T, Initial residual = 0.00584342, Final residual = 8.16046e-09, No Iterations 8
+DILUPBiCG:  Solving for T, Initial residual = 0.00192618, Final residual = 9.85046e-10, No Iterations 8
+ T goes from min(T) [0 0 0 0 0 0 0] -0.559462 to max(T) [0 0 0 0 0 0 0] 0.853176
+
+ExecutionTime = 63.23 s  ClockTime = 1054 s
+
+Time = 4.9
+Courant Number mean: 3.49487 max: 10.6303
+DILUPBiCG:  Solving for T, Initial residual = 0.145939, Final residual = 1.98226e-09, No Iterations 11
+DILUPBiCG:  Solving for T, Initial residual = 0.0238492, Final residual = 2.9938e-09, No Iterations 9
+DILUPBiCG:  Solving for T, Initial residual = 0.00607263, Final residual = 5.92751e-09, No Iterations 8
+DILUPBiCG:  Solving for T, Initial residual = 0.00201592, Final residual = 4.27716e-09, No Iterations 8
+ T goes from min(T) [0 0 0 0 0 0 0] -0.520492 to max(T) [0 0 0 0 0 0 0] 0.849508
+
+ExecutionTime = 63.82 s  ClockTime = 1063 s
+
+Time = 4.95
+Courant Number mean: 3.4775 max: 10.4236
+DILUPBiCG:  Solving for T, Initial residual = 0.148263, Final residual = 4.87486e-09, No Iterations 11
+DILUPBiCG:  Solving for T, Initial residual = 0.0245905, Final residual = 8.77732e-09, No Iterations 9
+DILUPBiCG:  Solving for T, Initial residual = 0.00635142, Final residual = 5.35131e-10, No Iterations 10
+DILUPBiCG:  Solving for T, Initial residual = 0.00213308, Final residual = 2.65287e-09, No Iterations 9
+ T goes from min(T) [0 0 0 0 0 0 0] -0.467998 to max(T) [0 0 0 0 0 0 0] 0.846837
+
+ExecutionTime = 64.4 s  ClockTime = 1071 s
+
+Time = 5
+Courant Number mean: 3.47163 max: 10.1613
+DILUPBiCG:  Solving for T, Initial residual = 0.150396, Final residual = 1.08974e-09, No Iterations 12
+DILUPBiCG:  Solving for T, Initial residual = 0.025317, Final residual = 6.83444e-09, No Iterations 10
+DILUPBiCG:  Solving for T, Initial residual = 0.00668864, Final residual = 2.25733e-09, No Iterations 10
+DILUPBiCG:  Solving for T, Initial residual = 0.00228929, Final residual = 1.72306e-09, No Iterations 10
+ T goes from min(T) [0 0 0 0 0 0 0] -0.425904 to max(T) [0 0 0 0 0 0 0] 0.844221
+
+ExecutionTime = 64.99 s  ClockTime = 1079 s
+
+Time = 5.05
+Courant Number mean: 3.4775 max: 10.4236
+DILUPBiCG:  Solving for T, Initial residual = 0.152729, Final residual = 5.61772e-09, No Iterations 12
+DILUPBiCG:  Solving for T, Initial residual = 0.0259889, Final residual = 3.31368e-09, No Iterations 11
+DILUPBiCG:  Solving for T, Initial residual = 0.00699924, Final residual = 9.33478e-10, No Iterations 11
+DILUPBiCG:  Solving for T, Initial residual = 0.00243562, Final residual = 2.61491e-09, No Iterations 10
+ T goes from min(T) [0 0 0 0 0 0 0] -0.374059 to max(T) [0 0 0 0 0 0 0] 0.840732
+
+ExecutionTime = 65.57 s  ClockTime = 1086 s
+
+Time = 5.1
+Courant Number mean: 3.49487 max: 10.6303
+DILUPBiCG:  Solving for T, Initial residual = 0.154986, Final residual = 2.99714e-09, No Iterations 13
+DILUPBiCG:  Solving for T, Initial residual = 0.0265826, Final residual = 7.17255e-09, No Iterations 11
+DILUPBiCG:  Solving for T, Initial residual = 0.00725617, Final residual = 5.41526e-09, No Iterations 11
+DILUPBiCG:  Solving for T, Initial residual = 0.00257351, Final residual = 3.4821e-09, No Iterations 11
+ T goes from min(T) [0 0 0 0 0 0 0] -0.322836 to max(T) [0 0 0 0 0 0 0] 0.836612
+
+ExecutionTime = 66.15 s  ClockTime = 1094 s
+
+Time = 5.15
+Courant Number mean: 3.52385 max: 10.7806
+DILUPBiCG:  Solving for T, Initial residual = 0.15732, Final residual = 2.60478e-09, No Iterations 14
+DILUPBiCG:  Solving for T, Initial residual = 0.0270575, Final residual = 6.10098e-09, No Iterations 12
+DILUPBiCG:  Solving for T, Initial residual = 0.00746924, Final residual = 1.95105e-09, No Iterations 12
+DILUPBiCG:  Solving for T, Initial residual = 0.00268987, Final residual = 1.10273e-09, No Iterations 12
+ T goes from min(T) [0 0 0 0 0 0 0] -0.308572 to max(T) [0 0 0 0 0 0 0] 0.832601
+
+ExecutionTime = 66.75 s  ClockTime = 1101 s
+
+Time = 5.2
+Courant Number mean: 3.56192 max: 10.8699
+DILUPBiCG:  Solving for T, Initial residual = 0.159889, Final residual = 3.2027e-09, No Iterations 14
+DILUPBiCG:  Solving for T, Initial residual = 0.0274433, Final residual = 2.33854e-09, No Iterations 13
+DILUPBiCG:  Solving for T, Initial residual = 0.00765059, Final residual = 2.7666e-09, No Iterations 12
+DILUPBiCG:  Solving for T, Initial residual = 0.00278379, Final residual = 7.0394e-09, No Iterations 11
+ T goes from min(T) [0 0 0 0 0 0 0] -0.306995 to max(T) [0 0 0 0 0 0 0] 0.836151
+
+ExecutionTime = 67.34 s  ClockTime = 1109 s
+
+Time = 5.25
+Courant Number mean: 3.60446 max: 10.8948
+DILUPBiCG:  Solving for T, Initial residual = 0.162498, Final residual = 7.28884e-09, No Iterations 14
+DILUPBiCG:  Solving for T, Initial residual = 0.027759, Final residual = 9.21354e-09, No Iterations 13
+DILUPBiCG:  Solving for T, Initial residual = 0.00776445, Final residual = 9.29665e-09, No Iterations 13
+DILUPBiCG:  Solving for T, Initial residual = 0.00284411, Final residual = 5.09327e-10, No Iterations 13
+ T goes from min(T) [0 0 0 0 0 0 0] -0.306324 to max(T) [0 0 0 0 0 0 0] 0.84389
+
+ExecutionTime = 67.94 s  ClockTime = 1117 s
+
+Time = 5.3
+Courant Number mean: 3.64977 max: 10.8664
+DILUPBiCG:  Solving for T, Initial residual = 0.165197, Final residual = 3.15345e-09, No Iterations 15
+DILUPBiCG:  Solving for T, Initial residual = 0.0280616, Final residual = 3.55617e-10, No Iterations 15
+DILUPBiCG:  Solving for T, Initial residual = 0.00788007, Final residual = 1.76181e-09, No Iterations 13
+DILUPBiCG:  Solving for T, Initial residual = 0.00289536, Final residual = 7.82853e-09, No Iterations 11
+ T goes from min(T) [0 0 0 0 0 0 0] -0.307353 to max(T) [0 0 0 0 0 0 0] 0.859605
+
+ExecutionTime = 68.54 s  ClockTime = 1125 s
+
+Time = 5.35
+Courant Number mean: 3.69663 max: 10.8189
+DILUPBiCG:  Solving for T, Initial residual = 0.168396, Final residual = 6.30261e-09, No Iterations 15
+DILUPBiCG:  Solving for T, Initial residual = 0.0284879, Final residual = 9.41105e-09, No Iterations 13
+DILUPBiCG:  Solving for T, Initial residual = 0.00798611, Final residual = 7.02059e-09, No Iterations 12
+DILUPBiCG:  Solving for T, Initial residual = 0.0029609, Final residual = 5.1404e-09, No Iterations 12
+ T goes from min(T) [0 0 0 0 0 0 0] -0.306577 to max(T) [0 0 0 0 0 0 0] 0.878189
+
+ExecutionTime = 69.12 s  ClockTime = 1132 s
+
+Time = 5.4
+Courant Number mean: 3.74425 max: 10.7574
+DILUPBiCG:  Solving for T, Initial residual = 0.170964, Final residual = 4.30503e-09, No Iterations 15
+DILUPBiCG:  Solving for T, Initial residual = 0.0289213, Final residual = 5.66043e-09, No Iterations 14
+DILUPBiCG:  Solving for T, Initial residual = 0.00810947, Final residual = 3.12536e-09, No Iterations 13
+DILUPBiCG:  Solving for T, Initial residual = 0.00300207, Final residual = 6.36049e-09, No Iterations 12
+ T goes from min(T) [0 0 0 0 0 0 0] -0.306467 to max(T) [0 0 0 0 0 0 0] 0.892403
+
+ExecutionTime = 69.71 s  ClockTime = 1140 s
+
+Time = 5.45
+Courant Number mean: 3.7919 max: 10.6798
+DILUPBiCG:  Solving for T, Initial residual = 0.173715, Final residual = 5.61014e-10, No Iterations 17
+DILUPBiCG:  Solving for T, Initial residual = 0.0293332, Final residual = 4.9844e-09, No Iterations 14
+DILUPBiCG:  Solving for T, Initial residual = 0.00821248, Final residual = 3.73832e-09, No Iterations 13
+DILUPBiCG:  Solving for T, Initial residual = 0.00302598, Final residual = 3.49816e-09, No Iterations 14
+ T goes from min(T) [0 0 0 0 0 0 0] -0.307457 to max(T) [0 0 0 0 0 0 0] 0.889491
+
+ExecutionTime = 70.31 s  ClockTime = 1148 s
+
+Time = 5.5
+Courant Number mean: 3.83903 max: 10.5879
+DILUPBiCG:  Solving for T, Initial residual = 0.176318, Final residual = 9.24235e-09, No Iterations 15
+DILUPBiCG:  Solving for T, Initial residual = 0.0297574, Final residual = 7.78087e-09, No Iterations 14
+DILUPBiCG:  Solving for T, Initial residual = 0.00828685, Final residual = 1.77629e-09, No Iterations 14
+DILUPBiCG:  Solving for T, Initial residual = 0.00304696, Final residual = 5.47362e-09, No Iterations 12
+ T goes from min(T) [0 0 0 0 0 0 0] -0.309036 to max(T) [0 0 0 0 0 0 0] 0.888965
+
+ExecutionTime = 70.92 s  ClockTime = 1156 s
+
+Time = 5.55
+Courant Number mean: 3.88518 max: 10.4833
+DILUPBiCG:  Solving for T, Initial residual = 0.178767, Final residual = 1.22747e-09, No Iterations 17
+DILUPBiCG:  Solving for T, Initial residual = 0.0302263, Final residual = 6.30417e-09, No Iterations 14
+DILUPBiCG:  Solving for T, Initial residual = 0.00841369, Final residual = 2.09871e-09, No Iterations 14
+DILUPBiCG:  Solving for T, Initial residual = 0.00308407, Final residual = 9.44915e-10, No Iterations 14
+ T goes from min(T) [0 0 0 0 0 0 0] -0.314828 to max(T) [0 0 0 0 0 0 0] 0.889765
+
+ExecutionTime = 71.51 s  ClockTime = 1163 s
+
+Time = 5.6
+Courant Number mean: 3.92997 max: 10.3668
+DILUPBiCG:  Solving for T, Initial residual = 0.181338, Final residual = 6.64919e-09, No Iterations 16
+DILUPBiCG:  Solving for T, Initial residual = 0.0307067, Final residual = 7.11337e-09, No Iterations 14
+DILUPBiCG:  Solving for T, Initial residual = 0.00850901, Final residual = 7.33038e-10, No Iterations 15
+DILUPBiCG:  Solving for T, Initial residual = 0.00312246, Final residual = 1.0466e-09, No Iterations 14
+ T goes from min(T) [0 0 0 0 0 0 0] -0.320734 to max(T) [0 0 0 0 0 0 0] 0.905399
+
+ExecutionTime = 72.1 s  ClockTime = 1171 s
+
+Time = 5.65
+Courant Number mean: 3.97314 max: 10.235
+DILUPBiCG:  Solving for T, Initial residual = 0.183483, Final residual = 6.58332e-09, No Iterations 16
+DILUPBiCG:  Solving for T, Initial residual = 0.0312629, Final residual = 6.25219e-09, No Iterations 15
+DILUPBiCG:  Solving for T, Initial residual = 0.00866756, Final residual = 6.43891e-10, No Iterations 15
+DILUPBiCG:  Solving for T, Initial residual = 0.00317047, Final residual = 4.64614e-09, No Iterations 13
+ T goes from min(T) [0 0 0 0 0 0 0] -0.324665 to max(T) [0 0 0 0 0 0 0] 0.911943
+
+ExecutionTime = 72.69 s  ClockTime = 1179 s
+
+Time = 5.7
+Courant Number mean: 4.01428 max: 10.0913
+DILUPBiCG:  Solving for T, Initial residual = 0.185791, Final residual = 6.39129e-09, No Iterations 16
+DILUPBiCG:  Solving for T, Initial residual = 0.0317967, Final residual = 7.91092e-09, No Iterations 14
+DILUPBiCG:  Solving for T, Initial residual = 0.0088043, Final residual = 7.39408e-09, No Iterations 13
+DILUPBiCG:  Solving for T, Initial residual = 0.00321773, Final residual = 3.17177e-09, No Iterations 13
+ T goes from min(T) [0 0 0 0 0 0 0] -0.328079 to max(T) [0 0 0 0 0 0 0] 0.909626
+
+ExecutionTime = 73.29 s  ClockTime = 1187 s
+
+Time = 5.75
+Courant Number mean: 4.05328 max: 9.93563
+DILUPBiCG:  Solving for T, Initial residual = 0.187623, Final residual = 4.04443e-09, No Iterations 17
+DILUPBiCG:  Solving for T, Initial residual = 0.0323577, Final residual = 5.90379e-09, No Iterations 15
+DILUPBiCG:  Solving for T, Initial residual = 0.00892902, Final residual = 6.54969e-09, No Iterations 13
+DILUPBiCG:  Solving for T, Initial residual = 0.00325306, Final residual = 7.25225e-09, No Iterations 11
+ T goes from min(T) [0 0 0 0 0 0 0] -0.328733 to max(T) [0 0 0 0 0 0 0] 0.912507
+
+ExecutionTime = 73.9 s  ClockTime = 1194 s
+
+Time = 5.8
+Courant Number mean: 4.0897 max: 9.76663
+DILUPBiCG:  Solving for T, Initial residual = 0.189573, Final residual = 4.52831e-09, No Iterations 17
+DILUPBiCG:  Solving for T, Initial residual = 0.0327921, Final residual = 5.2434e-09, No Iterations 15
+DILUPBiCG:  Solving for T, Initial residual = 0.00904059, Final residual = 3.19049e-09, No Iterations 14
+DILUPBiCG:  Solving for T, Initial residual = 0.00327315, Final residual = 3.55244e-09, No Iterations 12
+ T goes from min(T) [0 0 0 0 0 0 0] -0.328896 to max(T) [0 0 0 0 0 0 0] 0.920416
+
+ExecutionTime = 74.5 s  ClockTime = 1202 s
+
+Time = 5.85
+Courant Number mean: 4.12332 max: 9.5898
+DILUPBiCG:  Solving for T, Initial residual = 0.192047, Final residual = 1.87473e-09, No Iterations 18
+DILUPBiCG:  Solving for T, Initial residual = 0.0331621, Final residual = 8.52595e-09, No Iterations 14
+DILUPBiCG:  Solving for T, Initial residual = 0.00906272, Final residual = 5.10432e-09, No Iterations 13
+DILUPBiCG:  Solving for T, Initial residual = 0.00326976, Final residual = 5.24958e-09, No Iterations 13
+ T goes from min(T) [0 0 0 0 0 0 0] -0.32803 to max(T) [0 0 0 0 0 0 0] 0.918088
+
+ExecutionTime = 75.11 s  ClockTime = 1210 s
+
+Time = 5.9
+Courant Number mean: 4.15364 max: 9.4039
+DILUPBiCG:  Solving for T, Initial residual = 0.194025, Final residual = 4.06755e-09, No Iterations 18
+DILUPBiCG:  Solving for T, Initial residual = 0.0335848, Final residual = 7.4824e-09, No Iterations 14
+DILUPBiCG:  Solving for T, Initial residual = 0.00910112, Final residual = 4.21454e-09, No Iterations 13
+DILUPBiCG:  Solving for T, Initial residual = 0.00325196, Final residual = 6.99948e-09, No Iterations 11
+ T goes from min(T) [0 0 0 0 0 0 0] -0.323664 to max(T) [0 0 0 0 0 0 0] 0.906797
+
+ExecutionTime = 75.72 s  ClockTime = 1218 s
+
+Time = 5.95
+Courant Number mean: 4.18017 max: 9.20685
+DILUPBiCG:  Solving for T, Initial residual = 0.195311, Final residual = 9.02365e-09, No Iterations 17
+DILUPBiCG:  Solving for T, Initial residual = 0.0338491, Final residual = 3.63151e-09, No Iterations 15
+DILUPBiCG:  Solving for T, Initial residual = 0.00915942, Final residual = 3.53649e-09, No Iterations 13
+DILUPBiCG:  Solving for T, Initial residual = 0.00324244, Final residual = 8.79243e-09, No Iterations 11
+ T goes from min(T) [0 0 0 0 0 0 0] -0.318024 to max(T) [0 0 0 0 0 0 0] 0.899966
+
+ExecutionTime = 76.32 s  ClockTime = 1226 s
+
+Time = 6
+Courant Number mean: 4.20218 max: 9.00438
+DILUPBiCG:  Solving for T, Initial residual = 0.196062, Final residual = 5.41252e-09, No Iterations 17
+DILUPBiCG:  Solving for T, Initial residual = 0.0342277, Final residual = 9.44365e-09, No Iterations 14
+DILUPBiCG:  Solving for T, Initial residual = 0.00927086, Final residual = 2.77611e-09, No Iterations 13
+DILUPBiCG:  Solving for T, Initial residual = 0.00325855, Final residual = 6.28854e-09, No Iterations 11
+ T goes from min(T) [0 0 0 0 0 0 0] -0.311265 to max(T) [0 0 0 0 0 0 0] 0.88383
+
+ExecutionTime = 76.92 s  ClockTime = 1234 s
+
+End
+

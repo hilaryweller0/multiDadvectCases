@@ -1,0 +1,48 @@
+nohup: ignoring input
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  dev                                   |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : dev-90f39e0d894d
+Exec   : scalarDeformationWithGhosts implicit -case nonOrthogW/1920x960/c1_implicit
+Date   : May 24 2017
+Time   : 06:47:56
+Host   : "sws02hw.private.rdg.ac.uk"
+PID    : 30462
+Case   : nonOrthogW/1920x960/c1_implicit
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Reading field T
+
+Reading fields phi (compulsory), U and Uf (optional)
+
+Calculating owner stencils
+Calculating neighbour stencils
+
+Calculating scalar transport
+
+Courant Number mean: 0.465188 max: 0.963937
+Time = 0.000625
+Courant Number mean: 0.465188 max: 0.964101
+DILUPBiCG:  Solving for T, Initial residual = 0.000840056, Final residual = 5.6202e-10, No Iterations 3
+DILUPBiCG:  Solving for T, Initial residual = 3.34704e-07, Final residual = 4.29439e-11, No Iterations 2
+DILUPBiCG:  Solving for T, Initial residual = 6.84297e-11, Final residual = 6.84297e-11, No Iterations 0
+DILUPBiCG:  Solving for T, Initial residual = 6.84297e-11, Final residual = 6.84297e-11, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] 5.71862e-21 to max(T) [0 0 0 0 0 0 0] 0.95404
+
+ExecutionTime = 605.35 s  ClockTime = 2954 s
+
+Time = 0.00125
+Courant Number mean: 0.465187 max: 0.964264
+DILUPBiCG:  Solving for T, Initial residual = 0.000840055, Final residual = 5.6263e-10, No Iterations 3

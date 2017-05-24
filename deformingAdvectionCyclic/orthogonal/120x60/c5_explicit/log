@@ -1,0 +1,1236 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  dev                                   |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : dev-90f39e0d894d
+Exec   : scalarDeformationWithGhosts explicit -case orthogonal/120x60/c5_explicit
+Date   : May 23 2017
+Time   : 20:31:35
+Host   : "sws02hw.private.rdg.ac.uk"
+PID    : 22947
+Case   : orthogonal/120x60/c5_explicit
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Reading field T
+
+Reading fields phi (compulsory), U and Uf (optional)
+
+Calculating owner stencils
+Calculating neighbour stencils
+
+Calculating scalar transport
+
+Courant Number mean: 1.87253 max: 3.67645
+Time = 0.05
+Courant Number mean: 1.87196 max: 3.67578
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] 4.28902e-20 to max(T) [0 0 0 0 0 0 0] 0.955765
+
+ExecutionTime = 2.24 s  ClockTime = 47 s
+
+Time = 0.1
+Courant Number mean: 1.87021 max: 3.67195
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] 8.70934e-20 to max(T) [0 0 0 0 0 0 0] 0.959608
+
+ExecutionTime = 2.37 s  ClockTime = 49 s
+
+Time = 0.15
+Courant Number mean: 1.86801 max: 3.66584
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -1.46859e-05 to max(T) [0 0 0 0 0 0 0] 0.964813
+
+ExecutionTime = 2.5 s  ClockTime = 52 s
+
+Time = 0.2
+Courant Number mean: 1.86533 max: 3.65747
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -0.00809648 to max(T) [0 0 0 0 0 0 0] 0.965824
+
+ExecutionTime = 2.63 s  ClockTime = 55 s
+
+Time = 0.25
+Courant Number mean: 1.8615 max: 3.64596
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -0.58195 to max(T) [0 0 0 0 0 0 0] 0.971771
+
+ExecutionTime = 2.76 s  ClockTime = 57 s
+
+Time = 0.3
+Courant Number mean: 1.85654 max: 3.63312
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -40.5873 to max(T) [0 0 0 0 0 0 0] 33.52
+
+ExecutionTime = 2.89 s  ClockTime = 60 s
+
+Time = 0.35
+Courant Number mean: 1.85048 max: 3.61718
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -2462.16 to max(T) [0 0 0 0 0 0 0] 2407.41
+
+ExecutionTime = 3.02 s  ClockTime = 63 s
+
+Time = 0.4
+Courant Number mean: 1.84397 max: 3.59902
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -130679 to max(T) [0 0 0 0 0 0 0] 144442
+
+ExecutionTime = 3.14 s  ClockTime = 66 s
+
+Time = 0.45
+Courant Number mean: 1.83702 max: 3.57864
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -8.51695e+06 to max(T) [0 0 0 0 0 0 0] 8.84936e+06
+
+ExecutionTime = 3.27 s  ClockTime = 68 s
+
+Time = 0.5
+Courant Number mean: 1.82901 max: 3.55524
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -5.05553e+08 to max(T) [0 0 0 0 0 0 0] 4.57822e+08
+
+ExecutionTime = 3.39 s  ClockTime = 71 s
+
+Time = 0.55
+Courant Number mean: 1.81996 max: 3.53056
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -2.60516e+10 to max(T) [0 0 0 0 0 0 0] 2.58426e+10
+
+ExecutionTime = 3.51 s  ClockTime = 73 s
+
+Time = 0.6
+Courant Number mean: 1.8099 max: 3.5029
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -1.45067e+12 to max(T) [0 0 0 0 0 0 0] 1.51222e+12
+
+ExecutionTime = 3.63 s  ClockTime = 76 s
+
+Time = 0.65
+Courant Number mean: 1.79949 max: 3.47313
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -7.11707e+13 to max(T) [0 0 0 0 0 0 0] 7.01524e+13
+
+ExecutionTime = 3.77 s  ClockTime = 79 s
+
+Time = 0.7
+Courant Number mean: 1.78877 max: 3.44125
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -3.68426e+15 to max(T) [0 0 0 0 0 0 0] 3.68146e+15
+
+ExecutionTime = 3.89 s  ClockTime = 81 s
+
+Time = 0.75
+Courant Number mean: 1.77712 max: 3.40653
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -1.67452e+17 to max(T) [0 0 0 0 0 0 0] 1.73326e+17
+
+ExecutionTime = 4.01 s  ClockTime = 84 s
+
+Time = 0.8
+Courant Number mean: 1.7647 max: 3.37061
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -8.62625e+18 to max(T) [0 0 0 0 0 0 0] 8.19366e+18
+
+ExecutionTime = 4.14 s  ClockTime = 86 s
+
+Time = 0.85
+Courant Number mean: 1.75142 max: 3.33191
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -3.69691e+20 to max(T) [0 0 0 0 0 0 0] 3.65161e+20
+
+ExecutionTime = 4.27 s  ClockTime = 89 s
+
+Time = 0.9
+Courant Number mean: 1.73795 max: 3.29126
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -1.45394e+22 to max(T) [0 0 0 0 0 0 0] 1.52821e+22
+
+ExecutionTime = 4.4 s  ClockTime = 92 s
+
+Time = 0.95
+Courant Number mean: 1.72428 max: 3.24868
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -6.03757e+23 to max(T) [0 0 0 0 0 0 0] 6.24692e+23
+
+ExecutionTime = 4.53 s  ClockTime = 95 s
+
+Time = 1
+Courant Number mean: 1.70996 max: 3.20349
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -2.37163e+25 to max(T) [0 0 0 0 0 0 0] 2.27081e+25
+
+ExecutionTime = 4.68 s  ClockTime = 98 s
+
+Time = 1.05
+Courant Number mean: 1.69512 max: 3.15721
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -7.74333e+26 to max(T) [0 0 0 0 0 0 0] 7.64254e+26
+
+ExecutionTime = 4.81 s  ClockTime = 101 s
+
+Time = 1.1
+Courant Number mean: 1.6797 max: 3.10843
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -2.51986e+28 to max(T) [0 0 0 0 0 0 0] 2.69969e+28
+
+ExecutionTime = 4.96 s  ClockTime = 104 s
+
+Time = 1.15
+Courant Number mean: 1.66436 max: 3.0579
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -8.12611e+29 to max(T) [0 0 0 0 0 0 0] 7.98089e+29
+
+ExecutionTime = 5.1 s  ClockTime = 107 s
+
+Time = 1.2
+Courant Number mean: 1.64919 max: 3.00565
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -2.15905e+31 to max(T) [0 0 0 0 0 0 0] 2.11657e+31
+
+ExecutionTime = 5.23 s  ClockTime = 109 s
+
+Time = 1.25
+Courant Number mean: 1.6337 max: 2.95111
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -6.02754e+32 to max(T) [0 0 0 0 0 0 0] 6.03762e+32
+
+ExecutionTime = 5.36 s  ClockTime = 112 s
+
+Time = 1.3
+Courant Number mean: 1.61807 max: 2.89562
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -1.42715e+34 to max(T) [0 0 0 0 0 0 0] 1.374e+34
+
+ExecutionTime = 5.48 s  ClockTime = 114 s
+
+Time = 1.35
+Courant Number mean: 1.60238 max: 2.83796
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -3.11363e+35 to max(T) [0 0 0 0 0 0 0] 3.14048e+35
+
+ExecutionTime = 5.61 s  ClockTime = 116 s
+
+Time = 1.4
+Courant Number mean: 1.58722 max: 2.77879
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -6.55413e+36 to max(T) [0 0 0 0 0 0 0] 6.41842e+36
+
+ExecutionTime = 5.73 s  ClockTime = 118 s
+
+Time = 1.45
+Courant Number mean: 1.57252 max: 2.71817
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -1.17735e+38 to max(T) [0 0 0 0 0 0 0] 1.24437e+38
+
+ExecutionTime = 5.86 s  ClockTime = 121 s
+
+Time = 1.5
+Courant Number mean: 1.55733 max: 2.65562
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -1.97708e+39 to max(T) [0 0 0 0 0 0 0] 2.1102e+39
+
+ExecutionTime = 5.98 s  ClockTime = 123 s
+
+Time = 1.55
+Courant Number mean: 1.54163 max: 2.59228
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -3.40705e+40 to max(T) [0 0 0 0 0 0 0] 3.17644e+40
+
+ExecutionTime = 6.14 s  ClockTime = 127 s
+
+Time = 1.6
+Courant Number mean: 1.52546 max: 2.52715
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -4.53474e+41 to max(T) [0 0 0 0 0 0 0] 4.50445e+41
+
+ExecutionTime = 6.27 s  ClockTime = 131 s
+
+Time = 1.65
+Courant Number mean: 1.50919 max: 2.46081
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -5.61914e+42 to max(T) [0 0 0 0 0 0 0] 6.00299e+42
+
+ExecutionTime = 6.42 s  ClockTime = 135 s
+
+Time = 1.7
+Courant Number mean: 1.49281 max: 2.3933
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -7.01633e+43 to max(T) [0 0 0 0 0 0 0] 6.97662e+43
+
+ExecutionTime = 6.54 s  ClockTime = 139 s
+
+Time = 1.75
+Courant Number mean: 1.47599 max: 2.32428
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -6.83052e+44 to max(T) [0 0 0 0 0 0 0] 6.89641e+44
+
+ExecutionTime = 6.71 s  ClockTime = 142 s
+
+Time = 1.8
+Courant Number mean: 1.45879 max: 2.25465
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -6.8545e+45 to max(T) [0 0 0 0 0 0 0] 6.81438e+45
+
+ExecutionTime = 6.83 s  ClockTime = 145 s
+
+Time = 1.85
+Courant Number mean: 1.44123 max: 2.18367
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -5.36944e+46 to max(T) [0 0 0 0 0 0 0] 5.40664e+46
+
+ExecutionTime = 6.96 s  ClockTime = 148 s
+
+Time = 1.9
+Courant Number mean: 1.4236 max: 2.11178
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -4.04691e+47 to max(T) [0 0 0 0 0 0 0] 4.11699e+47
+
+ExecutionTime = 7.09 s  ClockTime = 150 s
+
+Time = 1.95
+Courant Number mean: 1.40588 max: 2.03905
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -2.76433e+48 to max(T) [0 0 0 0 0 0 0] 2.62254e+48
+
+ExecutionTime = 7.23 s  ClockTime = 153 s
+
+Time = 2
+Courant Number mean: 1.38786 max: 1.96526
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -1.60406e+49 to max(T) [0 0 0 0 0 0 0] 1.5942e+49
+
+ExecutionTime = 7.35 s  ClockTime = 156 s
+
+Time = 2.05
+Courant Number mean: 1.36957 max: 1.89106
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -8.74432e+49 to max(T) [0 0 0 0 0 0 0] 9.02842e+49
+
+ExecutionTime = 7.51 s  ClockTime = 159 s
+
+Time = 2.1
+Courant Number mean: 1.35105 max: 1.81596
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -4.63151e+50 to max(T) [0 0 0 0 0 0 0] 4.56768e+50
+
+ExecutionTime = 7.64 s  ClockTime = 162 s
+
+Time = 2.15
+Courant Number mean: 1.3325 max: 1.7403
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -2.14777e+51 to max(T) [0 0 0 0 0 0 0] 2.13433e+51
+
+ExecutionTime = 7.78 s  ClockTime = 165 s
+
+Time = 2.2
+Courant Number mean: 1.31389 max: 1.66414
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -8.7849e+51 to max(T) [0 0 0 0 0 0 0] 8.31299e+51
+
+ExecutionTime = 7.92 s  ClockTime = 168 s
+
+Time = 2.25
+Courant Number mean: 1.2951 max: 1.5874
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -3.31308e+52 to max(T) [0 0 0 0 0 0 0] 3.26009e+52
+
+ExecutionTime = 8.06 s  ClockTime = 171 s
+
+Time = 2.3
+Courant Number mean: 1.27618 max: 1.51045
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -9.92154e+52 to max(T) [0 0 0 0 0 0 0] 1.09463e+53
+
+ExecutionTime = 8.18 s  ClockTime = 173 s
+
+Time = 2.35
+Courant Number mean: 1.25716 max: 1.43309
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -3.20855e+53 to max(T) [0 0 0 0 0 0 0] 3.31656e+53
+
+ExecutionTime = 8.32 s  ClockTime = 176 s
+
+Time = 2.4
+Courant Number mean: 1.23814 max: 1.35552
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -9.05463e+53 to max(T) [0 0 0 0 0 0 0] 7.94126e+53
+
+ExecutionTime = 8.45 s  ClockTime = 179 s
+
+Time = 2.45
+Courant Number mean: 1.21909 max: 1.2778
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -2.20419e+54 to max(T) [0 0 0 0 0 0 0] 2.18224e+54
+
+ExecutionTime = 8.58 s  ClockTime = 182 s
+
+Time = 2.5
+Courant Number mean: 1.2 max: 1.2
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -4.62427e+54 to max(T) [0 0 0 0 0 0 0] 5.64453e+54
+
+ExecutionTime = 8.75 s  ClockTime = 185 s
+
+Time = 2.55
+Courant Number mean: 1.21909 max: 1.2778
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -1.27438e+55 to max(T) [0 0 0 0 0 0 0] 1.19818e+55
+
+ExecutionTime = 8.91 s  ClockTime = 189 s
+
+Time = 2.6
+Courant Number mean: 1.23814 max: 1.35552
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -3.00154e+55 to max(T) [0 0 0 0 0 0 0] 2.82369e+55
+
+ExecutionTime = 9.06 s  ClockTime = 192 s
+
+Time = 2.65
+Courant Number mean: 1.25716 max: 1.43309
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -6.36815e+55 to max(T) [0 0 0 0 0 0 0] 7.47718e+55
+
+ExecutionTime = 9.19 s  ClockTime = 194 s
+
+Time = 2.7
+Courant Number mean: 1.27618 max: 1.51045
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -1.83824e+56 to max(T) [0 0 0 0 0 0 0] 1.65524e+56
+
+ExecutionTime = 9.31 s  ClockTime = 197 s
+
+Time = 2.75
+Courant Number mean: 1.2951 max: 1.5874
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -4.51632e+56 to max(T) [0 0 0 0 0 0 0] 4.27664e+56
+
+ExecutionTime = 9.44 s  ClockTime = 200 s
+
+Time = 2.8
+Courant Number mean: 1.31389 max: 1.66414
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -9.54381e+56 to max(T) [0 0 0 0 0 0 0] 1.13386e+57
+
+ExecutionTime = 9.56 s  ClockTime = 202 s
+
+Time = 2.85
+Courant Number mean: 1.3325 max: 1.7403
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -2.60496e+57 to max(T) [0 0 0 0 0 0 0] 2.58421e+57
+
+ExecutionTime = 9.7 s  ClockTime = 205 s
+
+Time = 2.9
+Courant Number mean: 1.35105 max: 1.81596
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -6.25161e+57 to max(T) [0 0 0 0 0 0 0] 5.39355e+57
+
+ExecutionTime = 9.82 s  ClockTime = 208 s
+
+Time = 2.95
+Courant Number mean: 1.36957 max: 1.89106
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -1.29557e+58 to max(T) [0 0 0 0 0 0 0] 1.38016e+58
+
+ExecutionTime = 9.95 s  ClockTime = 210 s
+
+Time = 3
+Courant Number mean: 1.38786 max: 1.96526
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -2.6781e+58 to max(T) [0 0 0 0 0 0 0] 3.10959e+58
+
+ExecutionTime = 10.08 s  ClockTime = 213 s
+
+Time = 3.05
+Courant Number mean: 1.40588 max: 2.03905
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -6.36246e+58 to max(T) [0 0 0 0 0 0 0] 6.00037e+58
+
+ExecutionTime = 10.21 s  ClockTime = 216 s
+
+Time = 3.1
+Courant Number mean: 1.4236 max: 2.11178
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -3.07835e+59 to max(T) [0 0 0 0 0 0 0] 3.10783e+59
+
+ExecutionTime = 10.33 s  ClockTime = 219 s
+
+Time = 3.15
+Courant Number mean: 1.44123 max: 2.18367
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -3.45021e+60 to max(T) [0 0 0 0 0 0 0] 3.50575e+60
+
+ExecutionTime = 10.46 s  ClockTime = 221 s
+
+Time = 3.2
+Courant Number mean: 1.45879 max: 2.25465
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -4.41467e+61 to max(T) [0 0 0 0 0 0 0] 4.13315e+61
+
+ExecutionTime = 10.59 s  ClockTime = 224 s
+
+Time = 3.25
+Courant Number mean: 1.47599 max: 2.32428
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -5.50912e+62 to max(T) [0 0 0 0 0 0 0] 5.90748e+62
+
+ExecutionTime = 10.72 s  ClockTime = 227 s
+
+Time = 3.3
+Courant Number mean: 1.49281 max: 2.3933
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -8.5381e+63 to max(T) [0 0 0 0 0 0 0] 9.05001e+63
+
+ExecutionTime = 10.85 s  ClockTime = 229 s
+
+Time = 3.35
+Courant Number mean: 1.50919 max: 2.46081
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -1.55669e+65 to max(T) [0 0 0 0 0 0 0] 1.39776e+65
+
+ExecutionTime = 10.98 s  ClockTime = 232 s
+
+Time = 3.4
+Courant Number mean: 1.52546 max: 2.52715
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -2.70677e+66 to max(T) [0 0 0 0 0 0 0] 2.79566e+66
+
+ExecutionTime = 11.1 s  ClockTime = 234 s
+
+Time = 3.45
+Courant Number mean: 1.54163 max: 2.59228
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -5.0343e+67 to max(T) [0 0 0 0 0 0 0] 5.61893e+67
+
+ExecutionTime = 11.23 s  ClockTime = 237 s
+
+Time = 3.5
+Courant Number mean: 1.55733 max: 2.65562
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -1.16536e+69 to max(T) [0 0 0 0 0 0 0] 1.09121e+69
+
+ExecutionTime = 11.36 s  ClockTime = 239 s
+
+Time = 3.55
+Courant Number mean: 1.57252 max: 2.71817
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -2.76243e+70 to max(T) [0 0 0 0 0 0 0] 2.42248e+70
+
+ExecutionTime = 11.49 s  ClockTime = 241 s
+
+Time = 3.6
+Courant Number mean: 1.58722 max: 2.77879
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -5.65021e+71 to max(T) [0 0 0 0 0 0 0] 6.66585e+71
+
+ExecutionTime = 11.61 s  ClockTime = 244 s
+
+Time = 3.65
+Courant Number mean: 1.60238 max: 2.83796
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -1.44324e+73 to max(T) [0 0 0 0 0 0 0] 1.72622e+73
+
+ExecutionTime = 11.73 s  ClockTime = 246 s
+
+Time = 3.7
+Courant Number mean: 1.61807 max: 2.89562
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -4.7424e+74 to max(T) [0 0 0 0 0 0 0] 4.17629e+74
+
+ExecutionTime = 11.86 s  ClockTime = 248 s
+
+Time = 3.75
+Courant Number mean: 1.6337 max: 2.95111
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -1.41985e+76 to max(T) [0 0 0 0 0 0 0] 1.12172e+76
+
+ExecutionTime = 11.98 s  ClockTime = 251 s
+
+Time = 3.8
+Courant Number mean: 1.64919 max: 3.00565
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -3.95502e+77 to max(T) [0 0 0 0 0 0 0] 4.24598e+77
+
+ExecutionTime = 12.11 s  ClockTime = 253 s
+
+Time = 3.85
+Courant Number mean: 1.66436 max: 3.0579
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -1.12523e+79 to max(T) [0 0 0 0 0 0 0] 1.52966e+79
+
+ExecutionTime = 12.24 s  ClockTime = 256 s
+
+Time = 3.9
+Courant Number mean: 1.6797 max: 3.10843
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -4.74259e+80 to max(T) [0 0 0 0 0 0 0] 4.76758e+80
+
+ExecutionTime = 12.39 s  ClockTime = 259 s
+
+Time = 3.95
+Courant Number mean: 1.69512 max: 3.15721
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -2.0303e+82 to max(T) [0 0 0 0 0 0 0] 1.32797e+82
+
+ExecutionTime = 12.52 s  ClockTime = 261 s
+
+Time = 4
+Courant Number mean: 1.70996 max: 3.20349
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -7.21016e+83 to max(T) [0 0 0 0 0 0 0] 6.47771e+83
+
+ExecutionTime = 12.66 s  ClockTime = 264 s
+
+Time = 4.05
+Courant Number mean: 1.72428 max: 3.24868
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -2.15963e+85 to max(T) [0 0 0 0 0 0 0] 3.26508e+85
+
+ExecutionTime = 12.78 s  ClockTime = 266 s
+
+Time = 4.1
+Courant Number mean: 1.73795 max: 3.29126
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -1.05284e+87 to max(T) [0 0 0 0 0 0 0] 1.3233e+87
+
+ExecutionTime = 12.92 s  ClockTime = 269 s
+
+Time = 4.15
+Courant Number mean: 1.75142 max: 3.33191
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -6.21679e+88 to max(T) [0 0 0 0 0 0 0] 4.57194e+88
+
+ExecutionTime = 13.04 s  ClockTime = 271 s
+
+Time = 4.2
+Courant Number mean: 1.7647 max: 3.37061
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -2.91784e+90 to max(T) [0 0 0 0 0 0 0] 2.2958e+90
+
+ExecutionTime = 13.17 s  ClockTime = 273 s
+
+Time = 4.25
+Courant Number mean: 1.77712 max: 3.40653
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -1.12725e+92 to max(T) [0 0 0 0 0 0 0] 1.40269e+92
+
+ExecutionTime = 13.29 s  ClockTime = 276 s
+
+Time = 4.3
+Courant Number mean: 1.78877 max: 3.44125
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -5.76425e+93 to max(T) [0 0 0 0 0 0 0] 7.35651e+93
+
+ExecutionTime = 13.42 s  ClockTime = 278 s
+
+Time = 4.35
+Courant Number mean: 1.79949 max: 3.47313
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -3.71308e+95 to max(T) [0 0 0 0 0 0 0] 3.21924e+95
+
+ExecutionTime = 13.55 s  ClockTime = 281 s
+
+Time = 4.4
+Courant Number mean: 1.8099 max: 3.5029
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -2.06918e+97 to max(T) [0 0 0 0 0 0 0] 1.66548e+97
+
+ExecutionTime = 13.67 s  ClockTime = 283 s
+
+Time = 4.45
+Courant Number mean: 1.81996 max: 3.53056
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -1.03671e+99 to max(T) [0 0 0 0 0 0 0] 1.09524e+99
+
+ExecutionTime = 13.8 s  ClockTime = 285 s
+
+Time = 4.5
+Courant Number mean: 1.82901 max: 3.55524
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -5.46063e+100 to max(T) [0 0 0 0 0 0 0] 6.68059e+100
+
+ExecutionTime = 13.93 s  ClockTime = 288 s
+
+Time = 4.55
+Courant Number mean: 1.83702 max: 3.57864
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -3.58349e+102 to max(T) [0 0 0 0 0 0 0] 3.58139e+102
+
+ExecutionTime = 14.05 s  ClockTime = 290 s
+
+Time = 4.6
+Courant Number mean: 1.84397 max: 3.59902
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -2.33347e+104 to max(T) [0 0 0 0 0 0 0] 1.91702e+104
+
+ExecutionTime = 14.19 s  ClockTime = 293 s
+
+Time = 4.65
+Courant Number mean: 1.85048 max: 3.61718
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -1.29768e+106 to max(T) [0 0 0 0 0 0 0] 1.33323e+106
+
+ExecutionTime = 14.31 s  ClockTime = 295 s
+
+Time = 4.7
+Courant Number mean: 1.85654 max: 3.63312
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -7.14147e+107 to max(T) [0 0 0 0 0 0 0] 8.5657e+107
+
+ExecutionTime = 14.44 s  ClockTime = 297 s
+
+Time = 4.75
+Courant Number mean: 1.8615 max: 3.64596
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -5.16611e+109 to max(T) [0 0 0 0 0 0 0] 5.04353e+109
+
+ExecutionTime = 14.57 s  ClockTime = 300 s
+
+Time = 4.8
+Courant Number mean: 1.86533 max: 3.65747
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -3.22148e+111 to max(T) [0 0 0 0 0 0 0] 2.9412e+111
+
+ExecutionTime = 14.7 s  ClockTime = 302 s
+
+Time = 4.85
+Courant Number mean: 1.86801 max: 3.66584
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -2.03944e+113 to max(T) [0 0 0 0 0 0 0] 2.03067e+113
+
+ExecutionTime = 14.83 s  ClockTime = 305 s
+
+Time = 4.9
+Courant Number mean: 1.87021 max: 3.67195
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -1.21082e+115 to max(T) [0 0 0 0 0 0 0] 1.27279e+115
+
+ExecutionTime = 14.96 s  ClockTime = 307 s
+
+Time = 4.95
+Courant Number mean: 1.87196 max: 3.67578
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -7.90295e+116 to max(T) [0 0 0 0 0 0 0] 8.16524e+116
+
+ExecutionTime = 15.08 s  ClockTime = 310 s
+
+Time = 5
+Courant Number mean: 1.87253 max: 3.67645
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -5.17589e+118 to max(T) [0 0 0 0 0 0 0] 4.8971e+118
+
+ExecutionTime = 15.21 s  ClockTime = 312 s
+
+Time = 5.05
+Courant Number mean: 1.87196 max: 3.67578
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -3.16705e+120 to max(T) [0 0 0 0 0 0 0] 2.97896e+120
+
+ExecutionTime = 15.34 s  ClockTime = 314 s
+
+Time = 5.1
+Courant Number mean: 1.87021 max: 3.67195
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -2.11378e+122 to max(T) [0 0 0 0 0 0 0] 2.08995e+122
+
+ExecutionTime = 15.46 s  ClockTime = 317 s
+
+Time = 5.15
+Courant Number mean: 1.86801 max: 3.66584
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -1.28019e+124 to max(T) [0 0 0 0 0 0 0] 1.32363e+124
+
+ExecutionTime = 15.59 s  ClockTime = 319 s
+
+Time = 5.2
+Courant Number mean: 1.86533 max: 3.65747
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -8.36072e+125 to max(T) [0 0 0 0 0 0 0] 8.60684e+125
+
+ExecutionTime = 15.75 s  ClockTime = 322 s
+
+Time = 5.25
+Courant Number mean: 1.8615 max: 3.64596
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -5.40607e+127 to max(T) [0 0 0 0 0 0 0] 5.27656e+127
+
+ExecutionTime = 15.87 s  ClockTime = 325 s
+
+Time = 5.3
+Courant Number mean: 1.85654 max: 3.63312
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -3.52496e+129 to max(T) [0 0 0 0 0 0 0] 3.42646e+129
+
+ExecutionTime = 16 s  ClockTime = 327 s
+
+Time = 5.35
+Courant Number mean: 1.85048 max: 3.61718
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -1.96864e+131 to max(T) [0 0 0 0 0 0 0] 1.99375e+131
+
+ExecutionTime = 16.13 s  ClockTime = 329 s
+
+Time = 5.4
+Courant Number mean: 1.84397 max: 3.59902
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -1.22684e+133 to max(T) [0 0 0 0 0 0 0] 1.25278e+133
+
+ExecutionTime = 16.26 s  ClockTime = 332 s
+
+Time = 5.45
+Courant Number mean: 1.83702 max: 3.57864
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -7.3553e+134 to max(T) [0 0 0 0 0 0 0] 6.91241e+134
+
+ExecutionTime = 16.38 s  ClockTime = 334 s
+
+Time = 5.5
+Courant Number mean: 1.82901 max: 3.55524
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -3.80847e+136 to max(T) [0 0 0 0 0 0 0] 4.0455e+136
+
+ExecutionTime = 16.51 s  ClockTime = 337 s
+
+Time = 5.55
+Courant Number mean: 1.81996 max: 3.53056
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -2.14617e+138 to max(T) [0 0 0 0 0 0 0] 2.29365e+138
+
+ExecutionTime = 16.64 s  ClockTime = 339 s
+
+Time = 5.6
+Courant Number mean: 1.8099 max: 3.5029
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -1.22886e+140 to max(T) [0 0 0 0 0 0 0] 1.12738e+140
+
+ExecutionTime = 16.76 s  ClockTime = 342 s
+
+Time = 5.65
+Courant Number mean: 1.79949 max: 3.47313
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -5.95081e+141 to max(T) [0 0 0 0 0 0 0] 5.83714e+141
+
+ExecutionTime = 16.89 s  ClockTime = 344 s
+
+Time = 5.7
+Courant Number mean: 1.78877 max: 3.44125
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -2.85011e+143 to max(T) [0 0 0 0 0 0 0] 3.02189e+143
+
+ExecutionTime = 17.01 s  ClockTime = 346 s
+
+Time = 5.75
+Courant Number mean: 1.77712 max: 3.40653
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -1.45103e+145 to max(T) [0 0 0 0 0 0 0] 1.45155e+145
+
+ExecutionTime = 17.14 s  ClockTime = 349 s
+
+Time = 5.8
+Courant Number mean: 1.7647 max: 3.37061
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -6.10696e+146 to max(T) [0 0 0 0 0 0 0] 5.96917e+146
+
+ExecutionTime = 17.27 s  ClockTime = 351 s
+
+Time = 5.85
+Courant Number mean: 1.75142 max: 3.33191
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -2.83847e+148 to max(T) [0 0 0 0 0 0 0] 2.83943e+148
+
+ExecutionTime = 17.4 s  ClockTime = 354 s
+
+Time = 5.9
+Courant Number mean: 1.73795 max: 3.29126
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -1.09419e+150 to max(T) [0 0 0 0 0 0 0] 1.14773e+150
+
+ExecutionTime = 17.53 s  ClockTime = 356 s
+
+Time = 5.95
+Courant Number mean: 1.72428 max: 3.24868
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -4.31353e+151 to max(T) [0 0 0 0 0 0 0] 4.30588e+151
+
+ExecutionTime = 17.65 s  ClockTime = 358 s
+
+Time = 6
+Courant Number mean: 1.70996 max: 3.20349
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for T, Initial residual = 0, Final residual = 0, No Iterations 0
+ T goes from min(T) [0 0 0 0 0 0 0] -1.70268e+153 to max(T) [0 0 0 0 0 0 0] 1.60198e+153
+
+ExecutionTime = 17.78 s  ClockTime = 360 s
+
+End
+
