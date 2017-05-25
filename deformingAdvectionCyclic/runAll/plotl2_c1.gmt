@@ -47,6 +47,6 @@ ddy=2
 dyg=10
 xscale=*1
 yscale=*1
-legPos=x0.1/3
+legPos=x0.1/3.4
 projection=X-10cl/10cl
 gv=1

@@ -25,7 +25,7 @@ ev $case/0/TUmesh.pdf
 #rm -r orthogonal/[1-9]*/c*plicit nonOrthogW/[1-9]*/c*plicit
 
 # Set up cases with different time-steps to be run implicitly or explicitly
-cs=(0.5 1 2 5 10)
+cs=(0.25 0.5 1 2 5 10)
 for case in orthogonal/[1-9]* nonOrthogW/[1-9]* ; do
 	for c in ${cs[*]}; do
         echo $case $c
@@ -79,23 +79,27 @@ done
 # assemble errors for convergence with time-step
 res=120x60
 for type in orthogonal nonOrthogW; do
-    rm -f runAll/data/${type}_${res}_errorNormsTmp.dat
-    for dir in ${type}*; do
-        grep -h -v '^#' $dir/$res/errorNorms.dat  >> \
-            runAll/data/${type}_${res}_errorNormsTmp.dat
+    for dtType in implicit explicit; do
+        rm -f runAll/data/${type}_${res}_${dtType}_errorNormsTmp.dat
+        for dir in ${type}/${res}/c*_$dtType; do
+            if [ -e $dir/errorNorms.dat ]; then
+                grep -h -v '^#' $dir/errorNorms.dat  >> \
+                    runAll/data/${type}_${res}_${dtType}_errorNormsTmp.dat
+            fi
+        done
+        echo '#dx dt l1 l2 linf mean var min max' > \
+            runAll/data/${type}_${res}_${dtType}_errorNorms.dat
+        sort -n runAll/data/${type}_${res}_${dtType}_errorNormsTmp.dat >> \
+            runAll/data/${type}_${res}_${dtType}_errorNorms.dat
+        rm runAll/data/${type}_${res}_${dtType}_errorNormsTmp.dat
     done
-    echo '#dx dt l1 l2 linf mean var min max' > \
-        runAll/data/${type}_${res}_errorNorms.dat
-    sort -n runAll/data/${type}_${res}_errorNormsTmp.dat >> \
-        runAll/data/${type}_${res}_errorNorms.dat
-    rm runAll/data/${type}_${res}_errorNormsTmp.dat
 done
 
 #1st and 2nd order lines
 mkdir -p runAll/data
 echo -e "#dx error1st\n10 1\n0.1 0.01" > runAll/data/1stOrder.dat
-echo -e "#dx error2nd\n10 1\n0.316 1e-3" > runAll/data/2ndOrder.dat
-echo -e "#dx error3rd\n10 1\n1 1e-3" > runAll/data/3rdOrder.dat
+echo -e "#dx error2nd\n10 1\n1   0.01" > runAll/data/2ndOrder.dat
+echo -e "#dx error3rd\n10 1\n2   0.01" > runAll/data/3rdOrder.dat
 
 # create plots
 mkdir -p plots
