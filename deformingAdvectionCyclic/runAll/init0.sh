@@ -12,3 +12,5 @@ case=$1
 # Create the initial conditions
 cp -r dummy/0/* $case/0
 setGaussians -case $case setGaussiansDict
+#setInitialTracerField -case $case
+

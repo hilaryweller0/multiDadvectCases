@@ -42,7 +42,7 @@ for rootCase in */480x240 */960x480 */1920x960 ; do
     for c in ${cs[*]}; do
         case=$rootCase/c${c}_implicit
         nohup scalarDeformationWithGhosts implicit -case $case >& $case/log &
-        sleep 1
+        sleep 1orthogonal/120x60/c05_explicit
     done
     c=1
     case=$rootCase/c${c}_explicit
@@ -132,5 +132,17 @@ for type in *thog*; do
         echo $case | paste - $case/nIterations.dat \
             >> $type/nIterations.dat
     done
+done
+
+# pdfs for animations
+case=orthogonal/960x480/c5_explicit_cubic
+var=Traw
+gmtFoam -case $var
+mkdir -p $case/animategraphics
+t=0
+for time in `filename $case/[0-9]* | sort -n`; do
+    eps2png $case/$time/$var.pdf
+    ln -s ../$time/$var.png $case/animategraphics/${var}_$t.png
+    let t=$t+1
 done
 
